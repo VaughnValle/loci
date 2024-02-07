@@ -1,0 +1,20 @@
+{
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ]
+}
