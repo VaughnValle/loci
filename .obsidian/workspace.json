@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture 4.md",
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture 4.md",
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lecture 4.md"
+                "file": "Welcome.md"
               }
             }
           }
@@ -158,10 +157,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9abd40e06d2c1c7c",
+  "active": "b7a09906232baf63",
   "lastOpenFiles": [
-    "README.md",
+    "comp_net/lec2.md",
+    "comp_net",
+    "comp_arch/hw2b/binary_to_gray.vcd",
+    "comp_arch/hw2b/binary_to_gray_tb.v",
+    "comp_arch/hw2b/binary_to_gray.png",
+    "comp_arch/hw2b/binary_to_gray.vvp",
+    "comp_arch/hw2a/four_bit_adder_subtractor.png",
+    "comp_arch/hw2b/binary_to_gray.v",
+    "comp_arch/hw2a/adder_subtractor_test.vcd",
+    "comp_arch/hw2a/adder_subtractor_test.vvp",
+    "comp_arch/hw2a/full_adder_nodelay.v",
+    "comp_arch/hw2a/four_bit_adder_subtractor.v",
+    "comp_arch/hw2a/adder_subtractor_test.v",
+    "comp_arch/recitation3.png",
+    "comp_arch/lec2.md",
+    "Lecture 4.md",
     "Welcome.md",
-    "Lecture 4.md"
+    "README.md"
   ]
 }

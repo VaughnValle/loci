@@ -1,0 +1,26 @@
+1. Done, finished 
+2. [attached] 
+3. [attached]
+4. [attached]
+5. 
+unsigned int toggleBit2(unsigned int x){
+  return x ^ 2;
+}
+
+6.
+unsigned int flipOffBit5(unsigned int x){
+  return x & ~(1 << 4);
+}
+
+7.
+unsigned int repeatBitsThrice(unsigned int x){
+  return (x & 7) * 0x49;
+}
+
+8.
+unsigned int detectBitPattern(unsigned int x){
+  return (x & 0x00A0) == 0x00A0;
+}
+
+9. No. Because logical AND (&&) will return 0 simply if both values are zero and v.v. . However, with bitwise AND (&&), the return value can still be 0 despite having both inputs as non-zero. Here are some examples:
+a. 8 & 4 returns 0, but 8 && 4 returns 1 since both inputs are non-zero
