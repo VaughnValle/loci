@@ -2,6 +2,10 @@
 tags:
   - osiris
 ---
+_by Vaughn Valle_
+
+> [!note ] Note
+> This was my first hack night at OSIRIS. The live demo went pretty bad but I am hopeful to have sparked the passion in the audience to take an interest in pentesting.
 ## Overview 
 - What we will be doing
 - Why should I care about androids
