@@ -1,5 +1,5 @@
 ---
 tags:
-  - "#discrete-math"
+  - calculus
 type: moc
 ---

@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - personal
 type: concept
 ---
 > [!quote]

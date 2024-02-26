@@ -1,0 +1,1 @@
+- instead of sending a completely new frame, construct a new frame only from the difference of frame $a$ and $a+1$

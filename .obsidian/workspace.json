@@ -8,99 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a541acc409fd2a87",
+            "id": "c7d0804cef74099d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture 4.md",
+                "file": "MOCs/Discrete Mathematics MOC.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c05dff7251eea73a",
+            "id": "084041dc1f8896c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First Principles Thinking.md",
+                "file": "Proving.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "a8541cfde4c39bef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Universal Instantiation.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "09d50e398bc39728",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discrete Mathematics MOC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c0bf6c323d112d6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modus Tollens.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d17b35071fe5cf6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "converse error.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6286e359c293e56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modus Ponens.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "16a969d3593e38e2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:comp-net",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 252.5
   },
   "right": {
     "id": "3ec2257c6d25e023",
@@ -166,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Universal Instantiation.md",
+                "file": "MOCs/Discrete Mathematics MOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Universal Instantiation.md",
+                "file": "MOCs/Discrete Mathematics MOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Universal Instantiation.md"
+                "file": "MOCs/Discrete Mathematics MOC.md"
               }
             }
           }
@@ -214,7 +145,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,32 +158,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a8541cfde4c39bef",
+  "active": "c7d0804cef74099d",
   "lastOpenFiles": [
-    "Modus Ponens.md",
-    "First Principles Thinking.md",
-    "Universal Instantiation.md",
-    "converse error.md",
-    "Modus Tollens.md",
-    "Discrete Mathematics MOC.md",
-    "First Principles Thinking.pdf",
-    "Lecture 4.md",
-    "Welcome.md",
-    "Your First Android Hack.md",
-    "README.md",
-    "comp_net/lec2.md",
-    "comp_net",
-    "comp_arch/hw2b/binary_to_gray_tb.v",
-    "comp_arch/hw2b/binary_to_gray.vvp",
-    "comp_arch/hw2b/binary_to_gray.vcd",
-    "comp_arch/hw2b/binary_to_gray.v",
+    "comp_arch/recitation5.txt",
+    "Proving.md",
+    "MOCs/Discrete Mathematics MOC.md",
+    "MOCs/Computer Networking MOC.md",
+    "5 Layer Model.md",
+    "Application Layer.md",
+    "Process.md",
+    "Socket.md",
+    "HTTP.md",
+    "Transport Layer.md",
+    "MOCs/Calculus 2 MOC.md",
+    "Principles of Reliable Data Transfer.md",
+    "comp_net/hw2/tyler.py",
+    "Demultiplexing.md",
+    "UDP.md",
+    "checksum.md",
+    "Multiplexing.md",
+    "SNMP.md",
+    "RTT.md",
+    "TCP.md",
+    "Network Layer.md",
+    "CDN.md",
+    "Video Streaming.md",
+    "Theorem 4.4.1.md",
+    "Rational Numbers.md",
+    "How to Write Proofs.md",
+    "MOCs/Computer Architecture MOC.md",
+    "MOCs",
+    "comp_arch/hw3/hw3.txt",
+    "comp_arch/hw3",
+    "comp_net/hw2/18il2d.py",
+    "comp_net/hw2/server.py~",
+    "comp_net/hw2/client.py",
+    "comp_net/hw2/server.py",
+    "comp_net/hw2/html_files/comp_net.html",
+    "comp_net/hw2/html_files",
+    "Pasted image 20240212180659.png",
+    "Pasted image 20240212172821.png",
     "comp_arch/hw2b/binary_to_gray.png",
-    "comp_arch/hw2a/full_adder_nodelay.v",
-    "comp_arch/hw2a/four_bit_adder_subtractor.v",
     "comp_arch/hw2a/four_bit_adder_subtractor.png",
-    "comp_arch/hw2a/adder_subtractor_test.vvp",
-    "comp_arch/hw2a/adder_subtractor_test.vcd",
-    "comp_arch/recitation3.png",
-    "comp_arch/lec2.md"
+    "comp_arch/recitation3.png"
   ]
 }
