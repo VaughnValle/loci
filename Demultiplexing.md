@@ -12,4 +12,4 @@ type: concept
 	- each [[datagram]] has as source and destination IP
 		- each carries one [[segment]]
 			- each [[segment]] has source and destination port
-- 
+- happens in receiver
