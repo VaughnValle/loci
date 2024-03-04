@@ -1,0 +1,13 @@
+---
+tags:
+  - comp-net
+---
+- mitigates traffic 
+- Acts as client and server
+	- Communicate to client to provide cached web content
+	- Comunicate to server to retrieve lastest content
+- Uses [[Cache Control]]
+- Stores temporary clone of HTML object of a website
+- The effectiveness of the cache is measured by [[Cache Hit Rate]]
+- Having the cache on a network server means all clients can share it
+- Whether or not to use the cache is governed by a [[Conditional GET]]

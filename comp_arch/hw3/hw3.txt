@@ -32,4 +32,3 @@ c. Infinitely, until the computer shuts down
 d. Never, because myROM[0] jumps over it
 e. 
 6.
-
