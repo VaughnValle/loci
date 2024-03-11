@@ -1,0 +1,3 @@
+- what happens when router memory to hold queued packets fill up?
+- this is when packet loss occurs
+- when memory fills up, we can't queue packets anymore so they get lost

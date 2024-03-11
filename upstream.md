@@ -1,0 +1,2 @@
+- data transmission from client to server
+- important in [[P2P]]

@@ -1,0 +1,2 @@
+- how do we assess efficiency of a network?
+- [[packet loss]], [[packet delay]], [[throughput]], [[bandwidth]]

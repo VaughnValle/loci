@@ -1,0 +1,2 @@
+- actual data rate of transmission through link
+- look into [[network bottleneck]]

@@ -1,0 +1,1 @@
+- entire packet must arrive to the router before it is pushed to the next link

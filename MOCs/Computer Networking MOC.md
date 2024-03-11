@@ -15,8 +15,11 @@ tags:
 ### Chapter 1
 - [[5 Layer Model]]
 - [[Network Protocols]]
+- [[Network edge]]
+- [[Network core]]
 - [[Network Performance]]
-- [[Internet Structure]]
+- [[upstream]] vs [[downstream]]
+- [[Network Security Basics]]
 ### Chapter 2
 - [[Application Layer]]
 - [[HTTP]]
