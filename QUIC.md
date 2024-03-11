@@ -1,0 +1,11 @@
+---
+tags:
+  - "#comp-net"
+---
+- Quick UDP Internet Connections
+- connection and encryption done in a single handshake
+	- recall that in [[TCP]], 1 handshake for conn, then another handshake for encryption, [[TLS]]
+- encryption and congestion control in [[Application Layer]]
+- error doesn't stop packet transmission
+	- eliminates [[Head-of-line blocking]], errors do not hold up subsequent packets
+- basically [[HTTP#^17fd0e]] + 

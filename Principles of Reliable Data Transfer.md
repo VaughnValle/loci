@@ -11,3 +11,6 @@ What is reliable data transfer?
 	- curtain behind [[Network Layer]]
 	- 
 - [[RDT]], reliable data transfer protocol
+- [[Go-Back-N]] vs [[Selective Repeat]]
+	- [[Selective Repeat]] has buffer, retransmits only pkt2
+		- buffer, rearrange, and deliver to [[Network Layer]]

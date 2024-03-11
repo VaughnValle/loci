@@ -29,7 +29,7 @@ Why do we use [[UDP]]?
 
 ### [[UDP]] uses
 1. streaming
-2. [[Domain Name System]]
+2. [[DNS]]
 3. [[SNMP]]
 4. [[HTTP^3.0]]
 

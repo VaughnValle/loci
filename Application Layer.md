@@ -2,6 +2,6 @@
 - [[Socket]]
 - [[HTTP]]
 - [[SMTP]]
-- [[Domain Name System]]
+- [[DNS]]
 - [[DASH]]
 - [[P2P]] and [[CDN]]

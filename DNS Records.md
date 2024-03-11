@@ -5,6 +5,18 @@ tags:
 - DNS stores resource records (RR)
 ## Types
 - A
+	- address record
+	- maps hostname to IPv4 address
+- AAAA
+	- maps hostname to IPv6 address
 - CNAME
+	- canonical name record
+	- aliases one domain to another domain
 - NS
+	- nameserver record
+	- indicates which nameserver is authoritative for a particular domain
 - MX
+	- mail exchange record
+	- directs email messages to the mail server
+		- [[SMTP]]
+		- [[IMAP]]

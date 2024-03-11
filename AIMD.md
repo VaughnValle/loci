@@ -1,0 +1,22 @@
+- stands for additive increase multiplicative decrease
+- senders increase sending rate until they experience loss, then decrease sending rate on loss event
+- additive increase
+	- increase rate by 1 max segment size every RTT until loss
+	- 1 message at a time, 2 messages at a time
+- multiplicative decrease
+	- decrease sending rate in half at each loss event
+- +1 increase, $\cdot 1/2$ decrease
+- Loss can be indicated when [[ACK]] is stuck on a number, which means server never got the packet at that sequence number, so packet at that sequence number needs to be retransmitted to move on
+- If we get triple duplicate [[ACK]]
+	- cut sending rate by half (TCP Reno)
+- If we get loss by timeout
+	- reset segment size to 1 (TCP Tahoe)
+- Congestion Window, `cwnd`
+	- dynamically adjust based on response from observed congestion
+- TCP Slow Start
+	- initially `cwnd=1` MSS
+	- double `cwnd` every RTT
+	- increment for every [[ACK]] received
+	- `sshthresh=8` initially
+	- on loss event, `sshthresh=1/2 * cwnd`, then increase linearly
+	- ![[Pasted image 20240304182344.png]]

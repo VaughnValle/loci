@@ -64,3 +64,67 @@ Proof:
 7. $n^2=1$ which is odd by [[definition of odd and even integers]]
 8. $\therefore$ Statement is true
 9. $\square$
+
+
+### If $r$ and $s$ are any two rational numbers, then $\frac {r+s} 2$ is rational
+Proof:
+1. $\forall r,s \in \mathbb Q, \frac {r+s} 2 \in \mathbb Q$
+2. Suppose $r$ and $s$ are any two numbers $\in \mathbb Q$
+3. By [[definition of rational numbers]], $r=\frac a b, s = \frac c d$
+4. For some integers $a,b,c,d$, $b\neq 0, d\neq 0$
+5. Thus, $\frac {r+s} 2 =\frac {\frac a b + \frac c d} 2$, by substitution
+6. Then, $\frac {ad+bc}{2bd}$
+7. let $p = ad+bc$, $q=2bd$, so $p,q \in \mathbb Z$ and $q\neq 0$
+8. Thus $\frac {r+s} 2 = \frac p q$
+9. $\therefore$ by [[definition of rational numbers]], statement is true
+10. $\square$
+
+Own
+1. Since $\mathbb Q$ are closed under addition/subtraction, $r+s \in \mathbb Q$
+2. Since $\mathbb Q$ are closed under division except when the divisor is $0$, then $\frac {r+s} 2 \in \mathbb Q$ 
+3. $\therefore$ Statement is true
+4. $\square$
+
+### For all real numbers $a$ and $b$, if $a<b$ then $a < \frac {a+b} 2 < b$
+Proof:
+1. $\forall a,b\in \mathbb R$, if $a<b$ then $a<\frac{a+b} 2 < b$
+2. $a < b$, then $a+a < b+a$
+3. Then, $2a < a+b = a < \frac {a+b} 2$ ^3f96a4
+4. Similarly, $a+b < b+b$
+5. Then, $a+b < 2b = b > \frac {a+b} 2$ ^c5d07c
+6. $\therefore$ $a < \frac {a+b} 2 < b$ by [[Proving#^3f96a4]] and [[Proving#^c5d07c]]
+7. $\square$
+
+### T or F? If $a$ is any odd integer, then $a^2+a$ is even.
+Proof:
+1. let $a$ be any odd integer
+2. By [[definition of odd and even integers]], $a=2k+1,$ for some $k\in \mathbb Z$
+3. Thus $a^2+a = (2k+1)^2 + (2k+1) = 4k^2 + 4k + 1 + 2k + 1$
+4. Then, $4k^2+6k+2$ ^ca443d
+5. We can express [[Proving#^ca443d]] in factored form $2(2k^2+3k+1)$
+6. let $p=2k^2+3k+1$, hence $a^2+a = 2p$ where $p\in \mathbb Z$
+7. $\therefore$ $a^2+a$ is even by [[definition of odd and even integers]]
+8. Statement is true
+9. $\square$
+
+### For any rational number s, $5s^3 + 8s^2 - 8$ is rational
+Given the following
+1. the square of any rational number is rational ^6bfac2
+2. the product of any rational number is rational ^986bd9
+3. the difference of any rational number is rational
+Proof: ^f6b7d3
+1. By [[Proving#^6bfac2]], $s^2 \in \mathbb Q$
+2. By [[Proving#^986bd9]], $s^3 = s^2 \cdot s \in \mathbb Q$
+3. By [[Proving#^6bfac2]], $5s^3 = 5\cdot s^3 \in \mathbb Q$
+4. Continue doing the proof for each term
+5. By [[Proving#^f6b7d3]], $5s^3 + 8s^2 - 8 \in \mathbb Q$
+6. $\therefore$ Statement is true
+7. $\square$
+
+
+8. $\forall s \in \mathbb Q$, $5s^3+8s^2-7 \in \mathbb Q$
+9. By [[definition of rational numbers]], $s=\frac a b$ for any $a,b \in \mathbb Z$
+
+
+Proof:
+1. 

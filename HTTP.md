@@ -4,7 +4,7 @@ tags:
 ---
 - 1.0, non-persistent, have to open TCP connection every request
 - 1.1, option to be persistent
-- 2.0
+- 2.0 ^17fd0e
 	- mitigates [[Head-of-line blocking]] by dividing objects into frames
 	- [[Frame Interleaving]]
 - 3.0

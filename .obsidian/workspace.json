@@ -4,72 +4,58 @@
     "type": "split",
     "children": [
       {
-        "id": "dca72066fded4da5",
-        "type": "split",
+        "id": "f025cc37148f3663",
+        "type": "tabs",
         "children": [
           {
-            "id": "f025cc37148f3663",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "727b3312cef6f6be",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Transport Layer.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "61d809e2bef9f802",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOCs/Computer Networking MOC.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
           },
           {
-            "id": "802986a503b7d805",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "44e9cdc4105c7130",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Principles of Reliable Data Transfer.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "6abd67e28a9caf4c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "RDT.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "3c47faa409f66787",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "FSM.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "a47c79efeed23a63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DNS.md",
+                "mode": "source",
+                "source": false
               }
-            ],
-            "currentTab": 1
+            }
+          },
+          {
+            "id": "0b935784267c10c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5 Layer Model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fab41c664f44692b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSIRIS Blog.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "dns",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RDT.md",
+                "file": "MOCs/Computer Networking MOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RDT.md",
+                "file": "MOCs/Computer Networking MOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RDT.md"
+                "file": "MOCs/Computer Networking MOC.md"
               }
             }
           }
@@ -195,36 +181,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6abd67e28a9caf4c",
+  "active": "61d809e2bef9f802",
   "lastOpenFiles": [
-    "FSM.md",
-    "RDT.md",
-    "Principles of Reliable Data Transfer.md",
-    "5 Layer Model.md",
-    "Transport Layer.md",
-    "TCP.md",
-    "UDP.md",
-    "Demultiplexing.md",
-    "Multiplexing.md",
-    "MOCs/Computer Networking MOC.md",
-    "checksum.md",
-    "MOCs/Computer Architecture MOC.md",
-    "Proving.md",
     "MOCs/Discrete Mathematics MOC.md",
-    "comp_arch/recitation5.txt",
-    "Application Layer.md",
-    "Process.md",
-    "Socket.md",
-    "HTTP.md",
+    "MOCs/Computer Networking MOC.md",
+    "MOCs/Computer Architecture MOC.md",
     "MOCs/Calculus 2 MOC.md",
-    "comp_net/hw2/tyler.py",
-    "SNMP.md",
-    "RTT.md",
-    "Network Layer.md",
-    "CDN.md",
     "Video Streaming.md",
-    "Theorem 4.4.1.md",
-    "Rational Numbers.md",
+    "P2P.md",
+    "DNS.md",
+    "5 Layer Model.md",
+    "Cache Hit Rate.md",
+    "OSI Model.md",
+    "OSIRIS Blog.md",
+    "Head-of-line blocking.md",
+    "QUIC.md",
+    "HTTP.md",
+    "Recursive Query.md",
+    "Iterative Query.md",
+    "Application Layer.md",
+    "Socket.md",
+    "Compnet Midterm Review.md",
+    "DNS Records.md",
+    "Transport Layer.md",
+    "Network Layer.md",
+    "Go-Back-N.md",
+    "Selective Repeat.md",
+    "Principles of Reliable Data Transfer.md",
+    "ARQ.md",
+    "Pasted image 20240304182344.png",
+    "Pasted image 20240304182340.png",
+    "comp_arch/recitation5.txt",
+    "comp_net/hw2/tyler.py",
     "MOCs",
     "comp_arch/hw3/hw3.txt",
     "comp_arch/hw3",
