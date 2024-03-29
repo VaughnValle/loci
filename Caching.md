@@ -7,3 +7,6 @@ tags:
 	- if not
 		- if nothing there, Miss
 		- if something there, Miss w/ Eviction
+- project
+	- don't wrap PC
+	- access memory with 0 but not 

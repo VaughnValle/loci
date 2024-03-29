@@ -42,9 +42,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "93460dc3377a50ca",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -219,7 +229,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bde7f795f4c1c67",
+  "active": "93460dc3377a50ca",
   "lastOpenFiles": [
     "Caching.md",
     "Bugbounty.md",
@@ -263,4 +273,8 @@
     "Pasted image 20240304182340.png",
     "Pasted image 20240212180659.png",
     "Pasted image 20240212172821.png",
-    "comp
+    "comp_arch/hw2b/binary_to_gray.png",
+    "comp_arch/hw2a/four_bit_adder_subtractor.png",
+    "comp_arch/recitation3.png"
+  ]
+}
