@@ -16,3 +16,4 @@ type: concept
 - add 2 16-bit integers
 - wraparound overflowed 17th bit and add to end
 - take 1's complement (invert bit)
+![[Pasted image 20240311142218.png]]

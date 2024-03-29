@@ -67,6 +67,7 @@ versions
 4. 2.2
 	1. [[NAK]]-free protocol
 		1. use [[ACK]] and [[sequence numbers]] to detect success
+		2. we don't need [[NAK]] bec if [[sequence numbers]] is unexpected, expect retransmission of lost pkt
 5. 3.0
 	1. Problem: packets can be lost
 	2. Solution: timer

@@ -22,17 +22,22 @@ tags:
 - [[Network Security Basics]]
 ### Chapter 2
 - [[Application Layer]]
-- [[HTTP]]
 ### Chapter 3
 - [[Transport Layer]]
-- [[TCP]]
-- [[DNS]]
 
 ### Homework
 1. [[Intro to Wireshark]]
 2. [[Web Server Socket Programming]]
 3. [[SMTP via Python Sockets]]
 
+
+### Notes
+1. [[Network Performance]]
+2. [[Multiplexing]] and [[Demultiplexing]]
+3. [[checksum]]
+4. [[SMTP]] format
+5. [[UDP]] format
+6. [[TCP]] format
 ### Midterm
 1. can bring handwritten notes of reasonable size
 2. look at sample midterms

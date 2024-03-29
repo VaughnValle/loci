@@ -1,0 +1,2 @@
+- negative acknowledge signal
+- antonymous with [[ACK]]

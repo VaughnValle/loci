@@ -1,0 +1,3 @@
+1. 
+2. Say both computers need to execute a hypothetical instruction count of 1000 from the same program installed in both computers. Execution time for Computer A will then be (4 CPI * 1000 Instructions * 5*10^9Hz) = 2*10^13 ms. Execution time for Computer B will then be (2 CPI * 1000 Instructions * 3*10^9) = 6*10^12 ms. Thus, from the execution time, we can see that Computer B is 70% faster than Computer A based on execution time alone.
+3.

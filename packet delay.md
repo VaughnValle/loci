@@ -12,12 +12,12 @@
 	1. processing bit errors
 	2. checksum
 	3. typically just microsecs
-4. queueing
+4. [[queueing]] and [[packet queueing]]
 	1. $\frac {L\cdot a}{R}$ [[Traffic Intensity]]
 		1. $L$, packet length
 		2. $a$, average packet arrival rate
 		3. $R$, link bandwidth
-	2. If $\frac {L\cdot a}{R} \approx 0$, small
+	2. If $\frac {L\cdot a}{R} < 0$, small
 	3. If $\frac {L\cdot a}{R} = 0$, average
 	4. If $\frac {L\cdot a}{R} > 0$, packets are queueing
 Delay can be determined via [[traceroute]]
