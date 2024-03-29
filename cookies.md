@@ -1,0 +1,5 @@
+- tags websites put on users to remember you
+- BUT they're also used to tag you and relate your cookie-id to some useful information about you
+	- your purchasing behavior
+	- preferences
+	- ads

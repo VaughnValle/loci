@@ -2,6 +2,9 @@
 tags:
   - "#comp-net"
 ---
-- goes back $n$ packets to 
+- sender can send multiple frames before getting [[ACK]] for first frame
 - sliding window to send packets sequentially
-- retransmit all packets in flight
+	- using [[sequence numbers]] and window size
+- retransmit all packets in current window if [[ACK]] for a frame not received in time
+
+![[Pasted image 20240311144619.png]]

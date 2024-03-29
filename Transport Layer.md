@@ -6,11 +6,12 @@ tags:
 - break application layer messages into segments, send to [[Network Layer]]
 
 ### Main Components
-1. [[UDP]]
-2. [[TCP]]
-3. [[Multiplexing]] and [[Demultiplexing]]
-4. [[Principles of Reliable Data Transfer]]
-5. [[QUIC]]
+1. [[Multiplexing]] and [[Demultiplexing]]
+2. [[Principles of Reliable Data Transfer]]
+3. [[ARQ]]
+4. [[UDP]]
+5. [[TCP]]
+6. [[QUIC]]
 
 ### Process
 1. Sender

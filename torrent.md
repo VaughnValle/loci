@@ -1,0 +1,1 @@
+- a group of peers exchanging chunks of a file

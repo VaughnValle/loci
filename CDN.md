@@ -5,6 +5,6 @@
 	1. push content as close to users
 2. Bring home
 	1. strategically place servers near access nets
-3. Over the top
+	2. close to ISPs
 ### Related
 - [[Video Streaming]]

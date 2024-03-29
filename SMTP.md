@@ -1,0 +1,6 @@
+- related to [[email]]
+- stands for Simple Mail Transfer Protocol
+	- used between mail servers to send emails
+	- uses [[TCP]] and persistent connections
+	- end of message determined by CRLF.CRLF
+- if [[HTTP]] is client pull, [[SMTP]] is client push
