@@ -20,36 +20,38 @@
             }
           },
           {
-            "id": "578ec467107c6312",
+            "id": "a8512e14675356f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bugbounty.md",
+                "file": "MOCs/Discrete Mathematics MOC.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0bde7f795f4c1c67",
+            "id": "e7017d30064f7e05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Caching.md",
+                "file": "MTU.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "93460dc3377a50ca",
+            "id": "d62d81a4df207c55",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.11"
+                "file": "Control Plane.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mtu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Caching.md",
+                "file": "Control Plane.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Caching.md",
+                "file": "Control Plane.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Caching.md",
+                "file": "Control Plane.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -173,7 +175,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.9346552651840673,
+                  "scale": 0.5987337588226535,
                   "close": true
                 }
               }
@@ -209,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Caching.md"
+                "file": "Control Plane.md"
               }
             }
           }
@@ -229,10 +231,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "93460dc3377a50ca",
+  "active": "d62d81a4df207c55",
   "lastOpenFiles": [
-    "Caching.md",
-    "Bugbounty.md",
+    "MTU.md",
+    "Network Layer.md",
+    "MOCs/Computer Networking MOC.md",
+    "Control Plane.md",
+    "Mathemetical Induction.md",
+    "MOCs/Discrete Mathematics MOC.md",
+    "OSIRIS Blog.md",
+    "distance vector algorithms.md",
+    "Bellman-Ford.md",
+    "link state.md",
+    "OSPF.md",
+    "autonomous system.md",
+    "distance vector.md",
+    "Dynamic Programming.md",
+    "Djikstra's.md",
+    "destination-based forwarding.md",
+    "link state algorithms.md",
+    "BGP.md",
+    "dual-homed.md",
+    "Hot Potato Routing.md",
+    "BGP path advertisement.md",
+    "NEXT-HOP.md",
+    "AS-PATH.md",
+    "Pasted image 20240413183129.png",
+    "Pasted image 20240413183108.png",
+    "Empty Set tricks.md",
+    "webdev",
+    "Partitions.md",
+    "Subsets.md",
+    "comp_net/hw3/smtp.py",
+    "comp_net/hw3",
     "comp_arch/hw6/hw6.txt",
     "comp_arch/hw6/e15/program3.v",
     "comp_arch/hw6/e15/program2.v",
@@ -240,33 +271,6 @@
     "comp_arch/hw6/e15/loop.v",
     "comp_arch/hw6/e15/E15Process.v",
     "comp_arch/hw6/e15/E15Process_tb.v",
-    "comp_arch/hw6/e15",
-    "comp_arch/hw6/e15_multicycle_incomplete - Copy.zip",
-    "comp_arch/hw6",
-    "OSIRIS Blog.md",
-    "5 Layer Model.md",
-    "DNS.md",
-    "process.md",
-    "cookies.md",
-    "QUIC.md",
-    "email.md",
-    "file distribution time.md",
-    "port.md",
-    "Cache Control.md",
-    "Web cache.md",
-    "MOCs/Computer Networking MOC.md",
-    "Transport Layer.md",
-    "TCP.md",
-    "AIMD.md",
-    "Principles of Reliable Data Transfer.md",
-    "RDT.md",
-    "Application Layer.md",
-    "P2P.md",
-    "DNS Records.md",
-    "Root Name Servers.md",
-    "Video Streaming.md",
-    "Conditional GET.md",
-    "CDN.md",
     "Pasted image 20240311144619.png",
     "Pasted image 20240311142218.png",
     "Pasted image 20240304182344.png",
@@ -274,7 +278,6 @@
     "Pasted image 20240212180659.png",
     "Pasted image 20240212172821.png",
     "comp_arch/hw2b/binary_to_gray.png",
-    "comp_arch/hw2a/four_bit_adder_subtractor.png",
-    "comp_arch/recitation3.png"
+    "comp_arch/hw2a/four_bit_adder_subtractor.png"
   ]
 }

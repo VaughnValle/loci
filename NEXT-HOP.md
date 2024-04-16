@@ -1,0 +1,1 @@
+- indicates internal router to next hop in the AS

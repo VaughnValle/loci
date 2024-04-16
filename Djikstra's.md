@@ -1,0 +1,17 @@
+- centralized global algorithm
+	- it calculates the shortest path of all nodes
+	- doesn't work for negative costs, 1 is quicker than -5
+		- but in reality, for network algorithms you don't have negative costs
+- each router knows the link cost through all nodes
+- computes least cost from one node to another
+	- every node does this again
+- each router is responsible for taking their link costs and computing that to connected nodes as well
+- iterative
+	- after k iterations, we know the cost path of k nodes
+- Notations
+	- $c_{x,y}$, direct cost, $\infty$ if not direct neighbors
+	- $D(v)$, current cost of least-cost-path from source to dest. $v$
+	- $p(v)$, predecessor node along path to $v$
+	- $N'$, set of nodes whose least-cost-path known
+- essentially, eliminate extraneous connections and create a least-cost-path tree
+	- we then use this tree to populate our [[NAT Table]] or [[Forwarding table]]

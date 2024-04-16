@@ -14,3 +14,13 @@ type: moc
 
 ### Recitations
 - [[Proving]] , related to [[How to Write Proofs]]
+- [[Subsets]]
+- [[Partitions]]
+- [[Empty Set tricks]]
+
+### Midterm 1
+![[Pasted image 20240413183129.png]]
+
+### Midterm 2
+- [[Mathemetical Induction]]
+![[Pasted image 20240413183108.png]]

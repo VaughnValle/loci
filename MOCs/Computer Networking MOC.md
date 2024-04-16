@@ -24,7 +24,12 @@ tags:
 - [[Application Layer]]
 ### Chapter 3
 - [[Transport Layer]]
-
+### Chapter 4 
+- [[Network Layer#^6dcdaf]]
+- [[Data Plane]]
+### Chapter 5
+- [[Network Layer#^ff0b00]]
+- [[Control Plane]]
 ### Homework
 1. [[Intro to Wireshark]]
 2. [[Web Server Socket Programming]]
@@ -38,7 +43,7 @@ tags:
 4. [[SMTP]] format
 5. [[UDP]] format
 6. [[TCP]] format
-### Midterm
+### Midterm 1
 1. can bring handwritten notes of reasonable size
 2. look at sample midterms
 3. monday

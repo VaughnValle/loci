@@ -1,0 +1,2 @@
+- get the packet out of my network as cheap as possible
+	- even if it's not the shortest path, if OSPF link weight is lower,  then it will take that path

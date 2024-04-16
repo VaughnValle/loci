@@ -1,0 +1,6 @@
+- initially started with IP
+- but evolved to Virtualization, NAT, etc.
+- [RFC 1958](https://datatracker.ietf.org/doc/html/rfc1958)
+	- internet is supposed to be simple
+	- core of network layer is only [[IP]]
+	- intelligence happens only in network edge

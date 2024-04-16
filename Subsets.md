@@ -1,0 +1,3 @@
+- proper subset when A is subset of B and B is larger than A
+	- that is there is at least one element of B that is not in A
+- if not proper, A and B can be subset of each other

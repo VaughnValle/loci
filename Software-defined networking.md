@@ -1,0 +1,18 @@
+- centralize the place where we make routing decisions to minimize mistakes
+- opposite of [[destination-based forwarding]]
+- using a remote controller as programming routers
+- OpenFlow API
+	- protocol to communicate with controller
+- interfaces used to allow operability between different softwares, OSes, and hardware
+- allows for load balancing
+	- to distribute traffic along two different paths
+- controller-switch messages
+	- features
+	- configure
+	- modify-state
+	- packet-out
+### Disadvantage
+- single point of failure
+- security
+- DDOS attacks more effective 
+- inter-domain routing

@@ -1,0 +1,4 @@
+- if the union of all smaller sets equal to that of the largest set
+- AND
+- all smaller sets are mutually disjoint
+	- which basically means that each element only belongs in one small set

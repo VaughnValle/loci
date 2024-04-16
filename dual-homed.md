@@ -1,0 +1,2 @@
+- connected to 2 networks
+- will not advertise that another path exists using the other network
