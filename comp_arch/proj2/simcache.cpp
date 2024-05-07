@@ -1,8 +1,10 @@
 /*
 CS-UY 2214
 Adapted from Jeff Epstein
-Starter code for E20 simulator
-sim.cpp
+Starter code for E20 cache Simulator
+simcache.cpp
+
+Vaughn Matthew Q. Valle
 */
 
 #include <cstddef>
@@ -10,12 +12,11 @@ sim.cpp
 #include <string>
 #include <vector>
 #include <fstream>
+#include <limits>
 #include <iomanip>
 #include <regex>
-#include <cstdlib>
 
 using namespace std;
-
 // Some helpful constant values that we'll be using.
 size_t const static NUM_REGS = 8;
 size_t const static MEM_SIZE = 1<<13;
@@ -34,6 +35,156 @@ unsigned int pc = 0;
 
 // Registers initialized as capped 16-bit unsigned integers
 uint16_t regs[NUM_REGS] = {};
+
+// --------------------- Starter Code Functions
+/*
+    Prints out the correctly-formatted configuration of a cache.
+
+    @param cache_name The name of the cache. "L1" or "L2"
+
+    @param size The total size of the cache, measured in memory cells.
+        Excludes metadata
+
+    @param assoc The associativity of the cache. One of [1,2,4,8,16]
+
+    @param blocksize The blocksize of the cache. One of [1,2,4,8,16,32,64])
+
+    @param num_rows The number of rows in the given cache.
+*/
+void print_cache_config(const string &cache_name, int size, int assoc, int blocksize, int num_rows) {
+    cout << "Cache " << cache_name << " has size " << size <<
+        ", associativity " << assoc << ", blocksize " << blocksize <<
+        ", rows " << num_rows << endl;
+}
+
+/*
+    Prints out a correctly-formatted log entry.
+
+    @param cache_name The name of the cache where the event
+        occurred. "L1" or "L2"
+
+    @param status The kind of cache event. "SW", "HIT", or
+        "MISS"
+
+    @param pc The program counter of the memory
+        access instruction
+
+    @param addr The memory address being accessed.
+
+    @param row The cache row or set number where the data
+        is stored.
+*/
+void print_log_entry(const string &cache_name, const string &status, int pc, int addr, int row) {
+    cout << left << setw(8) << cache_name + " " + status <<  right <<
+        " pc:" << setw(5) << pc <<
+        "\taddr:" << setw(5) << addr <<
+        "\trow:" << setw(4) << row << endl;
+}
+
+// --------------- Caching Simulation here
+
+bool L2_there = false; // Set default multi-cache behavior
+
+class Block{
+    public:
+        Block(): tag (-1){}
+        Block(int tag): tag(tag){}
+
+        // getter
+        int getTag(){return tag;}
+    private:
+        int tag;
+};
+
+class Row{
+    public:
+        Row() {}
+
+        Row(int rows) : rows(rows){
+            blocks.resize(rows, Block(-1)); // Resizes block vector
+        }
+
+        bool load(int tag, int assoc){ // LW
+            bool found = false;
+            Block temp(tag); // Buffer for checking
+            for(int i = 0; i < blocks.size(); i++){
+                if(blocks[i].getTag() == tag){ // Check for hit
+                    found = true;
+                    blocks.erase(blocks.begin() + i);
+                }
+            }
+            blocks.push_front(temp);
+            if(blocks.size() > assoc){
+                blocks.pop_back(); 
+            }
+            return found; 
+        }
+
+        void store(int tag, int assoc){ // SW
+            Block temp(tag);
+            blocks.push_front(temp);
+            if(blocks.size() > assoc){ // If block size exceeds assoc, pop LRU
+                blocks.pop_back();
+            }
+        } 
+    private:
+        int rows;
+        deque <Block> blocks;
+};
+
+class Cache{
+    public:
+        Cache() : name("") {}
+
+        void build(string name_in, int size_in, int assoc_in, int blocksize_in){
+            name = name_in;
+            size = size_in;
+            assoc = assoc_in;
+            blocksize = blocksize_in;
+            rowsize = size/(blocksize * assoc);
+            rows.resize(rowsize);
+
+            // Check & Print curr cache
+            print_cache_config(name, size, assoc, blocksize, rowsize);
+        }
+
+        void refresh(uint16_t addr){
+            block = addr / blocksize;
+            row = block % rowsize;
+            tag = block / rowsize;
+        }
+
+        void sw(uint16_t addr){
+            rows[row].store(tag, assoc);
+            print_log_entry(name, "SW", pc, addr, row);
+        }
+
+        bool lw(uint16_t addr){
+            if(rows[row].load(tag, assoc)){
+                print_log_entry(name, "HIT", pc, addr, row);
+                return true;
+            }
+            else{
+                print_log_entry(name, "MISS", pc, addr, row);
+                return false;
+            }
+        }
+
+    private:
+        string name;
+        int size;
+        int assoc;
+        int blocksize;
+        int rowsize;
+        int block;
+        int row;
+        int tag;
+        vector <Row> rows;
+};
+
+// ----------- E20 Simulator
+
+Cache L1, L2; // init caches for lw and sw
 
 /*
     Loads an E20 machine code file into the list
@@ -198,10 +349,10 @@ int op_find(unsigned code) {
 
 int run_op(int op_code) {
     int increment = 1;
-    unsigned memory_address = (regs[regA] + imm) & 0b1111111111111; // Sets memory_address as the regA + imm but only last 13 bits 
+    unsigned addr = (regs[regA] + imm) & 0b1111111111111; // Sets addr as the regA + imm but only last 13 bits 
     switch (op_code) {
     // ADD
-    case (0): // If op_code is add
+    case (0):
         if (regC != 0) {
             regs[regC] = regs[regA] + regs[regB];
         }
@@ -241,15 +392,32 @@ int run_op(int op_code) {
             regs[regB] = regs[regA] < imm;
         }
         break;
-    // LW
-    case (7): 
+    // LW -- here
+    case (7):
+        // refresh first
+        L1.refresh(addr);
+        if (L2_there) {L2.refresh(addr);}
+
+        if(!(L1.lw(addr))){ // LW to L1 if it exists, otherwise check if in L2
+            if(L2_there){
+                L2.lw(addr);
+            }
+        }
         if (regB != 0) {
-            regs[regB] = mem[memory_address];
+            regs[regB] = mem[addr];
         }
         break;
-    // SW
+    // SW -- here
     case (8): 
-        mem[memory_address] = regs[regB];
+        // refresh first
+        L1.refresh(addr);
+        if (L2_there) {L2.refresh(addr);}
+
+        L1.sw(addr); // SW at L1
+        if(L2_there){ // If exists, SW at L2
+            L2.sw(addr);
+        }
+        mem[addr] = regs[regB];
         break;
     // JEQ
     case (9): 
@@ -301,6 +469,10 @@ void e20() {
     }
 }
 
+// ----------------------------------------------------
+
+
+
 /**
     Main function
     Takes command-line args as documented below
@@ -312,11 +484,19 @@ int main(int argc, char *argv[]) {
     char *filename = nullptr;
     bool do_help = false;
     bool arg_error = false;
+    string cache_config;
     for (int i=1; i<argc; i++) {
         string arg(argv[i]);
         if (arg.rfind("-",0)==0) {
             if (arg== "-h" || arg == "--help")
                 do_help = true;
+            else if (arg=="--cache") {
+                i++;
+                if (i>=argc)
+                    arg_error = true;
+                else
+                    cache_config = argv[i];
+            }
             else
                 arg_error = true;
         } else {
@@ -328,28 +508,60 @@ int main(int argc, char *argv[]) {
     }
     /* Display error message if appropriate */
     if (arg_error || do_help || filename == nullptr) {
-        cerr << "usage " << argv[0] << " [-h] filename" << endl << endl;
-        cerr << "Simulate E20 machine" << endl << endl;
+        cerr << "usage " << argv[0] << " [-h] [--cache CACHE] filename" << endl << endl;
+        cerr << "Simulate E20 cache" << endl << endl;
         cerr << "positional arguments:" << endl;
         cerr << "  filename    The file containing machine code, typically with .bin suffix" << endl<<endl;
         cerr << "optional arguments:"<<endl;
         cerr << "  -h, --help  show this help message and exit"<<endl;
+        cerr << "  --cache CACHE  Cache configuration: size,associativity,blocksize (for one"<<endl;
+        cerr << "                 cache) or"<<endl;
+        cerr << "                 size,associativity,blocksize,size,associativity,blocksize"<<endl;
+        cerr << "                 (for two caches)"<<endl;
         return 1;
     }
 
+    // Init file stream
     ifstream f(filename);
-    if (!f.is_open()) {
-        cerr << "Can't open file "<<filename<<endl;
-        return 1;
-    }
-    // TODO: your code here. Load f and parse using load_machine_code
-    load_machine_code(f, mem);
-    
-    // TODO: your code here. Do simulation.
-    e20();
 
-    // TODO: your code here. print the final state of the simulator before ending, using print_state
-    print_state(pc, regs, mem, 128);
+    /* parse cache config */
+    if (cache_config.size() > 0) {
+        vector<int> parts;
+        size_t pos;
+        size_t lastpos = 0;
+        while ((pos = cache_config.find(",", lastpos)) != string::npos) {
+            parts.push_back(stoi(cache_config.substr(lastpos,pos)));
+            lastpos = pos + 1;
+        }
+        parts.push_back(stoi(cache_config.substr(lastpos)));
+        if (parts.size() == 3) {
+            int L1size = parts[0];
+            int L1assoc = parts[1];
+            int L1blocksize = parts[2];
+            // TODO: execute E20 program and simulate one cache here
+            L1.build("L1", parts[0], parts[1], parts[2]);
+        } else if (parts.size() == 6) {
+            int L1size = parts[0];
+            int L1assoc = parts[1];
+            int L1blocksize = parts[2];
+            int L2size = parts[3];
+            int L2assoc = parts[4];
+            int L2blocksize = parts[5];
+            // TODO: execute E20 program and simulate two caches here
+            L1.build("L1", parts[0], parts[1], parts[2]);
+            L2.build("L2", parts[3], parts[4], parts[5]);
+            L2_there = true;
+        } else {
+            cerr << "Invalid cache config"  << endl;
+            return 1;
+        }
+    }
+
+    load_machine_code(f, mem);
+    e20();
+    //print_state(pc, regs, mem, 128);
+
+
     return 0;
 }
 //ra0Eequ6ucie6Jei0koh6phishohm9

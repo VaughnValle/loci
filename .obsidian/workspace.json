@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Control Plane.md",
+                "file": "MOCs/Computer Architecture MOC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mtu",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,8 +102,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Control Plane.md",
+                "file": "MOCs/Computer Architecture MOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Control Plane.md",
+                "file": "MOCs/Computer Architecture MOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +151,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Control Plane.md",
+                "file": "MOCs/Computer Architecture MOC.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Control Plane.md"
+                "file": "MOCs/Computer Architecture MOC.md"
               }
             }
           }
@@ -233,10 +232,17 @@
   },
   "active": "d62d81a4df207c55",
   "lastOpenFiles": [
+    "Pasted image 20240430135228.png",
+    "Pasted image 20240430135151.png",
+    "Pasted image 20240430135133.png",
+    "Pasted image 20240430134951.png",
+    "Pasted image 20240430134936.png",
+    "Pasted image 20240430134837.png",
+    "MOCs/Computer Networking MOC.md",
+    "MOCs/Computer Architecture MOC.md",
+    "Control Plane.md",
     "MTU.md",
     "Network Layer.md",
-    "MOCs/Computer Networking MOC.md",
-    "Control Plane.md",
     "Mathemetical Induction.md",
     "MOCs/Discrete Mathematics MOC.md",
     "OSIRIS Blog.md",
@@ -260,8 +266,6 @@
     "Pasted image 20240413183108.png",
     "Empty Set tricks.md",
     "webdev",
-    "Partitions.md",
-    "Subsets.md",
     "comp_net/hw3/smtp.py",
     "comp_net/hw3",
     "comp_arch/hw6/hw6.txt",
@@ -273,11 +277,6 @@
     "comp_arch/hw6/e15/E15Process_tb.v",
     "Pasted image 20240311144619.png",
     "Pasted image 20240311142218.png",
-    "Pasted image 20240304182344.png",
-    "Pasted image 20240304182340.png",
-    "Pasted image 20240212180659.png",
-    "Pasted image 20240212172821.png",
-    "comp_arch/hw2b/binary_to_gray.png",
-    "comp_arch/hw2a/four_bit_adder_subtractor.png"
+    "Pasted image 20240304182344.png"
   ]
 }
