@@ -1,3 +1,4 @@
-- proper subset when A is subset of B and B is larger than A
-	- that is there is at least one element of B that is not in A
-- if not proper, A and B can be subset of each other
+$A\subseteq B$, iff $\forall x\in A, x\in B$
+- A is a subset of B if and only if all elements in A are also in B
+Note that unlike [[Proper Subsets]], A and B can be subset of each other
+	- which means that it is possible for $A=B$ from the fact that $A\subseteq B$ and $B\subseteq A$

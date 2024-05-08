@@ -27,7 +27,7 @@ type: moc
 ![[Pasted image 20240413183108.png]]
 
 
-## Finals
+## Final Review
 - Chapters 4, 5, 6, 7, and Section 9.4. 
 - __Chapter 8 will not be on the exam.__
 ![[Pasted image 20240507210658.png]]
@@ -38,15 +38,15 @@ type: moc
 	- Contradiction
 	- Composition
 ## Chapter 5
-- Sequences
+- [[Sequences]]
 - Mathematical Induction
 - Strong Mathematical Induction
 ## Chapter 6
-- Set Theory
+- [[Set Theory]]
 - Algebraic Proofs and Disproofs
 - Relations and Functions
 ## Chapter 7
-- Functions on Defined Sets
+- [[Functions]] on Defined Sets
 	- One-to-one
 	- Onto
 	- Inverse

@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "49e4fe4dfac608d7",
+            "id": "7fc1f61c3690197a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +20,36 @@
             }
           },
           {
-            "id": "0884d0c60fcf4320",
+            "id": "b50ec9d5a429bef8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Pigeonhole Principle.md",
+                "file": "Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f65b6dcbc5be3bc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f21bc9391b6ea4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Set Theory.md",
                 "mode": "source",
                 "source": false
               }
@@ -205,12 +229,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "49e4fe4dfac608d7",
+  "active": "7fc1f61c3690197a",
   "lastOpenFiles": [
+    "Functions.md",
+    "MOCs/Discrete Mathematics MOC.md",
+    "Set Theory.md",
+    "How to Write Proofs.md",
+    "Cartesian Product.md",
+    "Tuples.md",
+    "Power Sets.md",
+    "Cardinality.md",
+    "Proper Subsets.md",
+    "Subsets.md",
     "The Pigeonhole Principle.md",
+    "Truth Sets.md",
+    "set.md",
     "MTU.md",
     "MOCs/Computer Architecture MOC.md",
-    "MOCs/Discrete Mathematics MOC.md",
     "Pasted image 20240507210658.png",
     "OSIRIS Blog.md",
     "Pasted image 20240430135228.png",
@@ -229,19 +264,8 @@
     "OSPF.md",
     "autonomous system.md",
     "distance vector.md",
-    "Dynamic Programming.md",
-    "Djikstra's.md",
-    "destination-based forwarding.md",
-    "link state algorithms.md",
-    "BGP.md",
-    "dual-homed.md",
-    "Hot Potato Routing.md",
-    "BGP path advertisement.md",
-    "NEXT-HOP.md",
-    "AS-PATH.md",
     "Pasted image 20240413183129.png",
     "Pasted image 20240413183108.png",
-    "Empty Set tricks.md",
     "webdev",
     "comp_net/hw3/smtp.py",
     "comp_net/hw3",
