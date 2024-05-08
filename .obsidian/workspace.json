@@ -13,18 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSIRIS Blog.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a8512e14675356f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "MOCs/Discrete Mathematics MOC.md",
                 "mode": "source",
                 "source": false
@@ -32,31 +20,18 @@
             }
           },
           {
-            "id": "e7017d30064f7e05",
+            "id": "0884d0c60fcf4320",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MTU.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d62d81a4df207c55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MOCs/Computer Architecture MOC.md",
+                "file": "The Pigeonhole Principle.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MOCs/Computer Architecture MOC.md",
+                "file": "MOCs/Discrete Mathematics MOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MOCs/Computer Architecture MOC.md",
+                "file": "MOCs/Discrete Mathematics MOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +126,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "MOCs/Computer Architecture MOC.md",
+                "file": "MOCs/Discrete Mathematics MOC.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -210,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MOCs/Computer Architecture MOC.md"
+                "file": "MOCs/Discrete Mathematics MOC.md"
               }
             }
           }
@@ -230,8 +205,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d62d81a4df207c55",
+  "active": "49e4fe4dfac608d7",
   "lastOpenFiles": [
+    "The Pigeonhole Principle.md",
+    "MTU.md",
+    "MOCs/Computer Architecture MOC.md",
+    "MOCs/Discrete Mathematics MOC.md",
+    "Pasted image 20240507210658.png",
+    "OSIRIS Blog.md",
     "Pasted image 20240430135228.png",
     "Pasted image 20240430135151.png",
     "Pasted image 20240430135133.png",
@@ -239,13 +220,9 @@
     "Pasted image 20240430134936.png",
     "Pasted image 20240430134837.png",
     "MOCs/Computer Networking MOC.md",
-    "MOCs/Computer Architecture MOC.md",
     "Control Plane.md",
-    "MTU.md",
     "Network Layer.md",
     "Mathemetical Induction.md",
-    "MOCs/Discrete Mathematics MOC.md",
-    "OSIRIS Blog.md",
     "distance vector algorithms.md",
     "Bellman-Ford.md",
     "link state.md",
@@ -275,8 +252,6 @@
     "comp_arch/hw6/e15/loop.v",
     "comp_arch/hw6/e15/E15Process.v",
     "comp_arch/hw6/e15/E15Process_tb.v",
-    "Pasted image 20240311144619.png",
-    "Pasted image 20240311142218.png",
-    "Pasted image 20240304182344.png"
+    "Pasted image 20240311144619.png"
   ]
 }
