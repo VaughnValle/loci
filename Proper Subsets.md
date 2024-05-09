@@ -1,0 +1,2 @@
+- similar to [[Subsets]] but B is larger than A
+	- that is, there is at least one element of B that is not in A
