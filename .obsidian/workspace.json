@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOCs/Discrete Mathematics MOC.md",
+                "file": "Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functions.md",
+                "file": "MOCs/Discrete Mathematics MOC.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,6 +44,54 @@
             }
           },
           {
+            "id": "a3190d45e32d5e0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Onto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c74192f84be4a605",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "One to One.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f39ce0d50b249fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "One to One.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d59f68d57e933ecd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vertical line test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0f21bc9391b6ea4c",
             "type": "leaf",
             "state": {
@@ -55,7 +103,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -121,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MOCs/Discrete Mathematics MOC.md",
+                "file": "Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MOCs/Discrete Mathematics MOC.md",
+                "file": "Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +199,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "MOCs/Discrete Mathematics MOC.md",
+                "file": "Functions.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -209,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MOCs/Discrete Mathematics MOC.md"
+                "file": "Functions.md"
               }
             }
           }
@@ -229,9 +278,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7fc1f61c3690197a",
+  "active": "f65b6dcbc5be3bc8",
   "lastOpenFiles": [
+    "Onto.md",
     "Functions.md",
+    "One to One.md",
+    "vertical line test.md",
     "MOCs/Discrete Mathematics MOC.md",
     "Set Theory.md",
     "How to Write Proofs.md",
@@ -261,9 +313,6 @@
     "distance vector algorithms.md",
     "Bellman-Ford.md",
     "link state.md",
-    "OSPF.md",
-    "autonomous system.md",
-    "distance vector.md",
     "Pasted image 20240413183129.png",
     "Pasted image 20240413183108.png",
     "webdev",
