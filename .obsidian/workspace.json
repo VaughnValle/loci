@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "0f63db9bff5f8e69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOCs/Calculus 2 MOC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a8512e14675356f7",
             "type": "leaf",
             "state": {
@@ -32,19 +44,7 @@
             }
           },
           {
-            "id": "e7017d30064f7e05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MTU.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d62d81a4df207c55",
+            "id": "cf354a85ad926ccf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "3ec2257c6d25e023",
@@ -174,7 +175,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.5987337588226535,
+                  "scale": 0.26610389281006813,
                   "close": true
                 }
               }
@@ -218,7 +219,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,22 +232,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d62d81a4df207c55",
+  "active": "cf354a85ad926ccf",
   "lastOpenFiles": [
+    "MOCs/Discrete Mathematics MOC.md",
+    "MOCs/Computer Networking MOC.md",
+    "Network Layer.md",
+    "CDN.md",
+    "MOCs/Calculus 2 MOC.md",
+    "OSIRIS Blog.md",
+    "MOCs/Computer Architecture MOC.md",
     "Pasted image 20240430135228.png",
     "Pasted image 20240430135151.png",
     "Pasted image 20240430135133.png",
     "Pasted image 20240430134951.png",
     "Pasted image 20240430134936.png",
     "Pasted image 20240430134837.png",
-    "MOCs/Computer Networking MOC.md",
-    "MOCs/Computer Architecture MOC.md",
     "Control Plane.md",
     "MTU.md",
-    "Network Layer.md",
     "Mathemetical Induction.md",
-    "MOCs/Discrete Mathematics MOC.md",
-    "OSIRIS Blog.md",
     "distance vector algorithms.md",
     "Bellman-Ford.md",
     "link state.md",
@@ -264,7 +268,6 @@
     "AS-PATH.md",
     "Pasted image 20240413183129.png",
     "Pasted image 20240413183108.png",
-    "Empty Set tricks.md",
     "webdev",
     "comp_net/hw3/smtp.py",
     "comp_net/hw3",
@@ -276,7 +279,6 @@
     "comp_arch/hw6/e15/E15Process.v",
     "comp_arch/hw6/e15/E15Process_tb.v",
     "Pasted image 20240311144619.png",
-    "Pasted image 20240311142218.png",
-    "Pasted image 20240304182344.png"
+    "Pasted image 20240311142218.png"
   ]
 }

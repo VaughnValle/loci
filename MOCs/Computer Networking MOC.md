@@ -2,7 +2,7 @@
 tags:
   - comp-net
 ---
-## Topics
+## Stuff
 - [[5 Layer Model]]
 - [[OSI Model]], 7 layers
 - [[Web cache]]
