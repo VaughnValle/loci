@@ -1,0 +1,3 @@
+- random access memory
+- stored on the motherboard in modules called [[DIMM]]s
+- When we talk about RAM modules, they usually use [[DRAM]] as the underlying technology

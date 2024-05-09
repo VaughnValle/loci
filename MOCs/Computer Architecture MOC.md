@@ -4,10 +4,17 @@ tags:
 type: moc
 ---
 # Topics
+- [[Number systems]]
+- [[Bitwise]]
 - [[Verilog]]
+- [[Basic Comparch metrics]]
+- [[CompArch Formulas]]
 - [[E15]]
 - [[E20]]
-
+	- single vs multicycle
+- [[CPU Cache]]
+- [[x86]] architecture
+- [[System calls]]
 
 ## Resources
 - ![[Pasted image 20240430134951.png]]

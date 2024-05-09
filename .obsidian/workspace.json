@@ -20,36 +20,60 @@
             }
           },
           {
-            "id": "0f63db9bff5f8e69",
+            "id": "eb34d797b0592cb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOCs/Calculus 2 MOC.md",
+                "file": "CPU Cache.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a8512e14675356f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MOCs/Discrete Mathematics MOC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf354a85ad926ccf",
+            "id": "4623f9eb0f29c0b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "MOCs/Computer Architecture MOC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a75e3e4cdacf47e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CompArch Formulas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c9cafa319b1fe516",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bea40caa5bc7336b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPU Cache.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MOCs/Computer Architecture MOC.md",
+                "file": "CompArch Formulas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MOCs/Computer Architecture MOC.md",
+                "file": "CompArch Formulas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +176,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "MOCs/Computer Architecture MOC.md",
+                "file": "CompArch Formulas.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MOCs/Computer Architecture MOC.md"
+                "file": "CompArch Formulas.md"
               }
             }
           }
@@ -232,43 +256,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cf354a85ad926ccf",
+  "active": "9a75e3e4cdacf47e",
   "lastOpenFiles": [
+    "Pasted image 20240509013931.png",
+    "Pasted image 20240509013909.png",
+    "Pasted image 20240509013858.png",
+    "MOCs/Computer Architecture MOC.md",
+    "CompArch Formulas.md",
+    "Basic Comparch metrics.md",
+    "CPU Cache.md",
+    "CPI.md",
+    "RR.md",
+    "Associative Cache.md",
+    "OSIRIS Blog.md",
+    "AMAT.md",
+    "Pasted image 20240509010618.png",
+    "Pasted image 20240509010558.png",
+    "Pasted image 20240509010533.png",
+    "Direct-mapped Cache.md",
+    "MOCs/Calculus 2 MOC.md",
+    "MOCs/Discrete Mathematics MOC.md",
+    "MRU.md",
+    "NMRU.md",
+    "LRU.md",
+    "FIFO.md",
+    "Pasted image 20240509001454.png",
+    "DRAM.md",
+    "RAM.md",
+    "CPU.md",
+    "SRAM.md",
+    "DIMM.md",
     "vertical line test.md",
     "set.md",
     "Tuples.md",
     "Truth Sets.md",
-    "The Pigeonhole Principle.md",
-    "Set Theory.md",
-    "Proper Subsets.md",
-    "Power Sets.md",
     "Pasted image 20240507210658.png",
-    "Onto.md",
-    "One to One.md",
-    "Functions.md",
-    "Cartesian Product.md",
-    "Cardinality.md",
-    "MOCs/Discrete Mathematics MOC.md",
-    "MOCs/Computer Networking MOC.md",
-    "Network Layer.md",
-    "CDN.md",
-    "MOCs/Calculus 2 MOC.md",
-    "OSIRIS Blog.md",
-    "MOCs/Computer Architecture MOC.md",
     "Pasted image 20240430135228.png",
     "Pasted image 20240430135151.png",
     "Pasted image 20240430135133.png",
-    "Pasted image 20240430134951.png",
-    "Pasted image 20240430134936.png",
-    "Pasted image 20240430134837.png",
-    "Control Plane.md",
-    "MTU.md",
-    "Mathemetical Induction.md",
-    "distance vector algorithms.md",
-    "Bellman-Ford.md",
-    "link state.md",
-    "Pasted image 20240413183129.png",
-    "Pasted image 20240413183108.png",
     "webdev",
     "comp_net/hw3/smtp.py",
     "comp_net/hw3",
@@ -278,7 +303,6 @@
     "comp_arch/hw6/e15/program1.v",
     "comp_arch/hw6/e15/loop.v",
     "comp_arch/hw6/e15/E15Process.v",
-    "comp_arch/hw6/e15/E15Process_tb.v",
-    "Pasted image 20240311144619.png"
+    "comp_arch/hw6/e15/E15Process_tb.v"
   ]
 }
