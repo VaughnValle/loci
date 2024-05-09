@@ -42,6 +42,7 @@ For misses
 	- ![[Pasted image 20240509010618.png]]
 - write-allocate
 	- write to cache + either write-back or write through
+	- ![[Pasted image 20240509023013.png]]
 
 > [!info] Resources
 >- [ Fully Associative Caches and Replacement Algorithms](https://www.youtube.com/watch?v=A0vR-ks3hsQ)

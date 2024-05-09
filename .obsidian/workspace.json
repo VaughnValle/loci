@@ -32,7 +32,7 @@
             }
           },
           {
-            "id": "4623f9eb0f29c0b2",
+            "id": "9a75e3e4cdacf47e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,12 +44,36 @@
             }
           },
           {
-            "id": "9a75e3e4cdacf47e",
+            "id": "1ed54b4fe7a92d5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CompArch Formulas.md",
+                "file": "Virtual Memory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1701cc19e1a19f25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Virtual Memory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c38f76a6bcf61ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Virtual Memory.md",
                 "mode": "source",
                 "source": false
               }
@@ -147,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CompArch Formulas.md",
+                "file": "Virtual Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CompArch Formulas.md",
+                "file": "Virtual Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +200,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CompArch Formulas.md",
+                "file": "Virtual Memory.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -235,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CompArch Formulas.md"
+                "file": "Virtual Memory.md"
               }
             }
           }
@@ -256,18 +280,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a75e3e4cdacf47e",
+  "active": "1ed54b4fe7a92d5b",
   "lastOpenFiles": [
+    "MOCs/Computer Architecture MOC.md",
+    "Virtual Memory.md",
+    "CompArch Formulas.md",
+    "CPU Cache.md",
+    "Basic Comparch metrics.md",
+    "Associative Cache.md",
+    "Pasted image 20240509023013.png",
     "Pasted image 20240509013931.png",
     "Pasted image 20240509013909.png",
     "Pasted image 20240509013858.png",
-    "MOCs/Computer Architecture MOC.md",
-    "CompArch Formulas.md",
-    "Basic Comparch metrics.md",
-    "CPU Cache.md",
     "CPI.md",
     "RR.md",
-    "Associative Cache.md",
     "OSIRIS Blog.md",
     "AMAT.md",
     "Pasted image 20240509010618.png",
@@ -292,8 +318,6 @@
     "Truth Sets.md",
     "Pasted image 20240507210658.png",
     "Pasted image 20240430135228.png",
-    "Pasted image 20240430135151.png",
-    "Pasted image 20240430135133.png",
     "webdev",
     "comp_net/hw3/smtp.py",
     "comp_net/hw3",
