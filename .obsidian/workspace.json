@@ -30,6 +30,16 @@
             }
           },
           {
+            "id": "7716e4a38cfe7e4b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.1"
+              }
+            }
+          },
+          {
             "id": "b29998363072ec46",
             "type": "leaf",
             "state": {
@@ -126,7 +136,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -294,7 +304,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8faafdfd4ddaf7e0",
+  "active": "7716e4a38cfe7e4b",
   "lastOpenFiles": [
     "5 Layer Model.md",
     "MOCs/Computer Networking MOC.md",
