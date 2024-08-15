@@ -1,0 +1,1 @@
+test if graph is function by the condition that no two x values can have the same y value

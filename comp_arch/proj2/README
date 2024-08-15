@@ -1,0 +1,4 @@
+Vaughn Valle, vqv9731@nyu.edu
+I was able to complete the assignment. I also checked the respective output matched each given test case.
+I used Google, gdb, neovim and GNU/Linux
+I took what I learned from my OOP class with Prof. Sterling and used classes to make abstractions of caches to demonstrate DMC. I guess the disadvantage would be if you were a functional programmer and looking at the code totally against OOP and of its known disadvantages i.e. size and runtime. However, with OOP comes the benefit of "thinking modular" putting an emphasis on reusability for say numerous cache implementations in the future.

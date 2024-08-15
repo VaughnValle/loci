@@ -1,0 +1,2 @@
+- everytime cost or computation of neighbors changes, recalculate current cost
+- [[Bellman-Ford]]

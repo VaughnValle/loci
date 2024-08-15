@@ -1,0 +1,13 @@
+- open shortest path first
+- uses [[Djikstra's]]
+- intra, scaleable
+- Hierarchical
+	- breaking autonomous systems into area
+	- local area & backbone
+		- local area:
+			- internl routers
+		- backbone
+			- area border routers
+			- backbone routers
+			- boundary router
+	- 

@@ -1,5 +1,3 @@
----
-tags:
-  - "#comp-net"
----
-- application running in the background
+- refers to a program running on a host
+- processes communicate with each other within a host using [[inter-process communication]]
+- client process initiates the connection while server process waits to be contacted

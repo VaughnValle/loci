@@ -1,0 +1,5 @@
+- static [[RAM]]
+- operates using [[flip-flop]] circuits to store data
+	- doesn't need to be constantly refreshed unlike [[DRAM]]
+	- however, they are more expensive
+- used in [[CPU Cache]]

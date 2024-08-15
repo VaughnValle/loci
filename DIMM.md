@@ -1,0 +1,1 @@
+- dual inline memory modules

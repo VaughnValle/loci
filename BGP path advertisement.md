@@ -1,0 +1,1 @@
+- AS internal policy dictates whether or not to accept advertisement of another AS

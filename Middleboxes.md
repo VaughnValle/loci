@@ -1,0 +1,7 @@
+- anything more than a router
+	- [RFC 3234](https://datatracker.ietf.org/doc/html/rfc3234 )
+	- everywhere
+	- centralizing these allows programmability on the network layer
+		- [[Software-defined networking]]
+		- even routers have the NAT built-in, shipping it as a middlebox essentially
+	- [[IP Hourglass]]

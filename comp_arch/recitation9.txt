@@ -1,0 +1,5 @@
+1.1024
+2. Miss Miss Miss MIss Miss MissE MissE Hit Miss MissE
+3. Miss Hit Miss Miss Miss Miss MissE
+4. Miss Miss Hit
+5. 4096 blocks, 9bits, 12bits, 11bits
