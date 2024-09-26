@@ -3,7 +3,7 @@ tags:
   - "#discrete-math"
 type: moc
 ---
-## Topics
+#calculus  Topics
 - [[Arguments with Quantified Statement]]
 - [[How to Write Proofs]]
 - 4.3 [[Rational Numbers]]

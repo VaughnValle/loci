@@ -8,103 +8,115 @@
         "type": "tabs",
         "children": [
           {
-            "id": "49e4fe4dfac608d7",
+            "id": "a15d4817146736d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSIRIS Blog.md",
+                "file": "MOCs/Discrete Mathematics MOC.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "eb34d797b0592cb5",
+            "id": "46efae8dd86c82a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPU Cache.md",
+                "file": "MOCs/Offensive Security MOC.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9a75e3e4cdacf47e",
+            "id": "6ba4f60f21cb5677",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOCs/Computer Architecture MOC.md",
+                "file": "Week1 Offsec Writeup.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1ed54b4fe7a92d5b",
+            "id": "c98914413adeeda0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Virtual Memory.md",
+                "file": "Week2 Offsec Writeup.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1701cc19e1a19f25",
+            "id": "ca2f5185f50284e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Virtual Memory.md",
+                "file": "MOCs/Offensive Security MOC.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5c38f76a6bcf61ef",
+            "id": "05c2ccbb038d25ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Virtual Memory.md",
+                "file": "MOCs/Network Security MOC.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c9cafa319b1fe516",
+            "id": "af56bdf2a0603e70",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPI.md",
+                "file": "Netsec_Homework 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bea40caa5bc7336b",
+            "id": "e309f65453243d71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPU Cache.md",
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c28f2718b5c88f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Netsec Lab 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -171,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Virtual Memory.md",
+                "file": "Netsec Lab 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Virtual Memory.md",
+                "file": "Netsec Lab 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +212,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Virtual Memory.md",
+                "file": "Netsec Lab 1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -259,7 +271,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Virtual Memory.md"
+                "file": "Netsec Lab 1.md"
               }
             }
           }
@@ -280,44 +292,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1ed54b4fe7a92d5b",
+  "active": "9c28f2718b5c88f8",
   "lastOpenFiles": [
-    "MOCs/Computer Architecture MOC.md",
-    "Virtual Memory.md",
-    "CompArch Formulas.md",
+    "Pasted image 20240925202424.png",
+    "Pasted image 20240925201723.png",
+    "Untitled.md",
+    "Netsec_Homework 1.md",
+    "Netsec Lab 1.md",
+    "Week2 Offsec Writeup.md",
+    "Pasted image 20240924192040.png",
+    "Pasted image 20240924191914.png",
+    "Pasted image 20240924191832.png",
+    "Pasted image 20240924191629.png",
+    "Pasted image 20240924191230.png",
+    "Pasted image 20240924191202.png",
+    "Pasted image 20240924185512.png",
+    "Pasted image 20240924184802.png",
+    "Pasted image 20240924183535.png",
+    "Week1 Offsec Writeup.md",
+    "Week0 Offsec Writeup.md",
+    "MOCs/Network Security MOC.md",
+    "Haptics and Telerobotics in Medicine.md",
+    "MOCs/Offensive Security MOC.md",
+    "MOCs/Discrete Mathematics MOC.md",
     "CPU Cache.md",
+    "CPI.md",
+    "Virtual Memory.md",
+    "Laplace Transform.md",
+    "MOCs/Computer Architecture MOC.md",
+    "Week0 Offsec Writeup.md~",
+    "Endless Runner.md",
+    "LTI Systems.md",
+    "Fall '24",
+    "MOCs/Calculus 2 MOC.md",
+    "MOCs/Computer Networking MOC.md",
+    "How do we address processes.md",
+    "5 Layer Model.md",
+    "OSIRIS Blog.md",
+    "CompArch Formulas.md",
     "Basic Comparch metrics.md",
     "Associative Cache.md",
-    "Pasted image 20240509023013.png",
-    "Pasted image 20240509013931.png",
-    "Pasted image 20240509013909.png",
-    "Pasted image 20240509013858.png",
-    "CPI.md",
-    "RR.md",
-    "OSIRIS Blog.md",
-    "AMAT.md",
-    "Pasted image 20240509010618.png",
-    "Pasted image 20240509010558.png",
-    "Pasted image 20240509010533.png",
-    "Direct-mapped Cache.md",
-    "MOCs/Calculus 2 MOC.md",
-    "MOCs/Discrete Mathematics MOC.md",
-    "MRU.md",
-    "NMRU.md",
-    "LRU.md",
-    "FIFO.md",
-    "Pasted image 20240509001454.png",
-    "DRAM.md",
-    "RAM.md",
-    "CPU.md",
-    "SRAM.md",
-    "DIMM.md",
-    "vertical line test.md",
-    "set.md",
-    "Tuples.md",
-    "Truth Sets.md",
-    "Pasted image 20240507210658.png",
-    "Pasted image 20240430135228.png",
     "webdev",
     "comp_net/hw3/smtp.py",
     "comp_net/hw3",
@@ -325,8 +339,6 @@
     "comp_arch/hw6/e15/program3.v",
     "comp_arch/hw6/e15/program2.v",
     "comp_arch/hw6/e15/program1.v",
-    "comp_arch/hw6/e15/loop.v",
-    "comp_arch/hw6/e15/E15Process.v",
-    "comp_arch/hw6/e15/E15Process_tb.v"
+    "comp_arch/hw6/e15/loop.v"
   ]
 }
