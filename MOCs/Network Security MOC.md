@@ -10,3 +10,4 @@ tags:
 
 ## Assignments
 - [[Netsec_Homework 1]]
+- [[Netsec Lab 1]]
