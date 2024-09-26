@@ -1,0 +1,2 @@
+- systems that are linear and time-invariant
+- linear time invariant systems
