@@ -1,7 +1,7 @@
 {
-  "accentColor": "#616161",
+  "accentColor": "#0084ff",
   "theme": "obsidian",
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "extended-colorschemes"
   ],

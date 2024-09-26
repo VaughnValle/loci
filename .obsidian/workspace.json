@@ -32,123 +32,19 @@
             }
           },
           {
-            "id": "8faafdfd4ddaf7e0",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
-              }
-            }
-          },
-          {
-            "id": "7716e4a38cfe7e4b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.1"
-              }
-            }
-          },
-          {
-            "id": "b29998363072ec46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "packet-switching.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d88113b7a4cabd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "circuit-switching.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e230c3fdeed6463a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network Core.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3cbe3b3255d3de23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "downstream.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca33a7455fdffb02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "upstream.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a47c79efeed23a63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DNS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b935784267c10c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5 Layer Model.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fab41c664f44692b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSIRIS Blog.md",
+                "file": "MOCs/Computer Architecture MOC.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -214,7 +110,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "MOCs/Computer Networking MOC.md",
+                "file": "MOCs/Computer Architecture MOC.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -249,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MOCs/Computer Networking MOC.md",
+                "file": "MOCs/Computer Architecture MOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -266,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MOCs/Computer Networking MOC.md",
+                "file": "MOCs/Computer Architecture MOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -284,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MOCs/Computer Networking MOC.md"
+                "file": "MOCs/Computer Architecture MOC.md"
               }
             }
           },
@@ -316,8 +212,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b8024168619c60ec",
+  "active": "fab41c664f44692b",
   "lastOpenFiles": [
+    "Virtual Memory.md",
+    "MOCs/Computer Architecture MOC.md",
+    "MOCs/Computer Networking MOC.md",
+    "Control Plane.md",
+    "OSIRIS Blog.md",
+    "upstream.md",
     "comp_net/hw3/smtp.py",
     "comp_net/hw3",
     "comp_arch/proj2/tests-cache/write-through.s",
@@ -328,10 +230,8 @@
     "comp_arch/proj2/tests-cache/stride4.bin",
     "comp_arch/proj2/tests-cache/assoc2a.s",
     "comp_arch/proj2/tests-cache/assoc2a.bin",
-    "comp_arch/proj2/tests-cache/assoc2.s",
     "client-server.md",
     "autonomous system.md",
-    "Virtual Memory.md",
     "Tuples.md",
     "Truth Sets.md",
     "The Pigeonhole Principle.md",
@@ -357,12 +257,8 @@
     "Pasted image 20240430135228.png",
     "DIMM.md",
     "DHCP.md",
-    "Control Plane.md",
     "CompArch Formulas.md",
     "Cartesian Product.md",
-    "Cardinality.md",
-    "CPU.md",
-    "CPU Cache.md",
-    "CPI.md"
+    "Cardinality.md"
   ]
 }
