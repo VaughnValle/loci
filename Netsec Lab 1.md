@@ -1,6 +1,7 @@
 ---
 tags: netsec
 ---
+_by Vaughn Valle_
 ### Notes
 ## Room 01 - Intro to Subnets and Nmap
 ![[Pasted image 20240925202424.png]]
@@ -74,7 +75,7 @@ tags: netsec
 	- port list: `-p22,80,443`
 	- port range: `-p100-200` (inclusive)
 	- ![[Pasted image 20240926150810.png]]
-## Room 03
+## Room 03 - Nmap Advanced Port Scans
 ![[Pasted image 20240926163914.png]]
 ### Firewall
 
@@ -91,4 +92,9 @@ An intrusion detection system (IDS) inspects network packets for select behaviou
 
 ![[Pasted image 20240926163852.png]]
 
-## Room 04
+## Room 04 - Intro to Wireshark
+![[Pasted image 20240926213642.png]]
+
+## Room 05 - Wireshark Packet Operations
+![[Pasted image 20240927124035.png]]
+
