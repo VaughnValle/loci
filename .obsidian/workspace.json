@@ -4,83 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "a46284f979498cc9",
+        "id": "f025cc37148f3663",
         "type": "tabs",
         "children": [
           {
-            "id": "a15d4817146736d9",
+            "id": "61d809e2bef9f802",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOCs/Discrete Mathematics MOC.md",
+                "file": "MOCs/Computer Architecture MOC.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Computer Architecture MOC"
             }
           },
           {
-            "id": "46efae8dd86c82a9",
+            "id": "b8024168619c60ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOCs/Offensive Security MOC.md",
+                "file": "MOCs/Computer Networking MOC.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Computer Networking MOC"
             }
           },
           {
-            "id": "6ba4f60f21cb5677",
+            "id": "fab41c664f44692b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week1 Offsec Writeup.md",
+                "file": "Netsec_Homework 1.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Netsec_Homework 1"
             }
           },
           {
-            "id": "c98914413adeeda0",
+            "id": "58a50ffdd8b97a42",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week2 Offsec Writeup.md",
+                "file": "Haptics HW1.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Haptics HW1"
             }
           },
           {
-            "id": "3993be1153461f28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Week3 Offsec Writeup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca2f5185f50284e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MOCs/Offensive Security MOC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05c2ccbb038d25ff",
+            "id": "09ef48bb36b7f9e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -88,11 +72,41 @@
                 "file": "Netsec Lab 1.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Netsec Lab 1"
+            }
+          },
+          {
+            "id": "60018c6fb18edd85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TCP Header Flags.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TCP Header Flags"
+            }
+          },
+          {
+            "id": "5f54afc505ff0b9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calculus 2 MOC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Calculus 2 MOC"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -112,7 +126,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -121,13 +137,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "dns",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -135,7 +153,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -154,55 +174,26 @@
         "type": "tabs",
         "children": [
           {
-            "id": "967477ee5990c1e7",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Week3 Offsec Writeup.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "d6b458c10114b50a",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Week3 Offsec Writeup.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "0929fd31d900f123",
+            "id": "87002cd5df40a81f",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Week3 Offsec Writeup.md",
+                "file": "Netsec Lab 1.md",
                 "options": {
-                  "collapse-filter": true,
+                  "collapse-filter": false,
                   "search": "",
                   "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
-                  "localInterlinks": false,
+                  "localInterlinks": true,
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
                   "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
+                  "collapse-display": false,
+                  "showArrow": true,
                   "textFadeMultiplier": 0,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
@@ -211,34 +202,51 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.26610389281006813,
+                  "scale": 0.36288736930121596,
                   "close": true
                 }
-              }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Netsec Lab 1"
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "47cff934d0815e80",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "acef4c7f40fc269a",
+            "id": "967477ee5990c1e7",
             "type": "leaf",
             "state": {
-              "type": "tag",
+              "type": "backlink",
               "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "file": "Netsec Lab 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Netsec Lab 1"
+            }
+          },
+          {
+            "id": "d6b458c10114b50a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Netsec Lab 1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Netsec Lab 1"
             }
           }
         ]
       },
       {
-        "id": "0cb174daf5ac45c1",
+        "id": "2c215db6ba866a21",
         "type": "tabs",
         "children": [
           {
@@ -247,30 +255,51 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week3 Offsec Writeup.md"
-              }
+                "file": "Netsec Lab 1.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Netsec Lab 1"
+            }
+          },
+          {
+            "id": "acef4c7f40fc269a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 409.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "3993be1153461f28",
+  "active": "58a50ffdd8b97a42",
   "lastOpenFiles": [
+    "Netsec Lab 1.md",
+    "Haptics HW1.md",
+    "Netsec_Homework 1.md",
+    "MOCs/Network Security MOC.md",
     "Calculus 2 MOC.md",
+    "Week3 Offsec Writeup.md",
     "Pasted image 20241001201057.png",
     "Pasted image 20241001200152.png",
     "Pasted image 20241001195813.png",
@@ -281,40 +310,35 @@
     "Pasted image 20241001195032.png",
     "Pasted image 20241001194947.png",
     "Pasted image 20241001194141.png",
-    "Week2 Offsec Writeup.md",
-    "Week3 Offsec Writeup.md",
-    "Week1 Offsec Writeup.md",
-    "MOCs/Offensive Security MOC.md",
-    "Netsec Lab 1.md",
-    "MOCs/Network Security MOC.md",
-    "Netsec_Homework 1.md",
-    "Untitled.md",
+    "MOCs/Computer Architecture MOC.md",
     "MOCs/Computer Networking MOC.md",
     "TCP Header Flags.md",
-    "RFC793.md",
     "ARP.md",
-    "Data Plane.md",
-    "Control Plane.md",
-    "Compnet Midterm Review.md",
+    "RFC793.md",
+    "Week2 Offsec Writeup.md",
+    "Week1 Offsec Writeup.md",
     "Week0 Offsec Writeup.md",
-    "Haptics and Telerobotics in Medicine.md",
-    "MOCs/Discrete Mathematics MOC.md",
-    "CPU Cache.md",
-    "CPI.md",
+    "Untitled.md",
     "Virtual Memory.md",
-    "Laplace Transform.md",
-    "MOCs/Computer Architecture MOC.md",
-    "Week0 Offsec Writeup.md~",
-    "Endless Runner.md",
-    "LTI Systems.md",
-    "Fall '24",
-    "webdev",
+    "Control Plane.md",
+    "OSIRIS Blog.md",
+    "upstream.md",
     "comp_net/hw3/smtp.py",
     "comp_net/hw3",
-    "comp_arch/hw6/hw6.txt",
-    "comp_arch/hw6/e15/program3.v",
-    "comp_arch/hw6/e15/program2.v",
-    "comp_arch/hw6/e15/program1.v",
-    "comp_arch/hw6/e15/loop.v"
+    "comp_arch/proj2/tests-cache/write-through.s",
+    "comp_arch/proj2/tests-cache/write-through.bin",
+    "comp_arch/proj2/tests-cache/test.s",
+    "comp_arch/proj2/tests-cache/test.bin",
+    "comp_arch/proj2/tests-cache/stride4.s",
+    "comp_arch/proj2/tests-cache/stride4.bin",
+    "comp_arch/proj2/tests-cache/assoc2a.s",
+    "comp_arch/proj2/tests-cache/assoc2a.bin",
+    "client-server.md",
+    "autonomous system.md",
+    "Tuples.md",
+    "Truth Sets.md",
+    "The Pigeonhole Principle.md",
+    "TLS.md",
+    "Subsets.md"
   ]
 }
