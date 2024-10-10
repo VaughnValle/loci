@@ -2,6 +2,8 @@ _by Vaughn Valle_
 
 ### Question 1
 
+
+
 ### Question 2
 #### Part A: Damper
 
@@ -23,7 +25,7 @@ To prove integral passivity, we need to show that the integral of the power inpu
 
 $$∫_{t_0​}^t​ P(τ)dτ=∫^t_{t_0}​BV(τ)^2dτ≥0$$
 
-This inequality holds true since $BV(τ)2$ is always non-negative. Therefore, the damper is integral passive.
+This inequality holds true since $BV(τ)^2$ is always non-negative. Therefore, the damper is integral passive.
 
 #### Part B: Spring
 

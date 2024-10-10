@@ -16,9 +16,7 @@
                 "file": "MOCs/Computer Architecture MOC.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Computer Architecture MOC"
+              }
             }
           },
           {
@@ -30,9 +28,7 @@
                 "file": "MOCs/Computer Networking MOC.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Computer Networking MOC"
+              }
             }
           },
           {
@@ -44,9 +40,7 @@
                 "file": "Netsec_Homework 1.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Netsec_Homework 1"
+              }
             }
           },
           {
@@ -58,9 +52,7 @@
                 "file": "Haptics HW1.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Haptics HW1"
+              }
             }
           },
           {
@@ -72,9 +64,7 @@
                 "file": "Netsec Lab 1.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Netsec Lab 1"
+              }
             }
           },
           {
@@ -86,9 +76,7 @@
                 "file": "TCP Header Flags.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TCP Header Flags"
+              }
             }
           },
           {
@@ -100,13 +88,19 @@
                 "file": "Calculus 2 MOC.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Calculus 2 MOC"
+              }
+            }
+          },
+          {
+            "id": "b4476bc42d7b52fa",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -126,9 +120,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              }
             }
           },
           {
@@ -143,9 +135,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
+              }
             }
           },
           {
@@ -153,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "state": {}
             }
           }
         ]
@@ -178,7 +166,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Netsec Lab 1.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -204,9 +191,7 @@
                   "scale": 0.36288736930121596,
                   "close": true
                 }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Graph of Netsec Lab 1"
+              }
             }
           },
           {
@@ -215,7 +200,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Netsec Lab 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,9 +207,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Netsec Lab 1"
+              }
             }
           },
           {
@@ -234,12 +216,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Netsec Lab 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Netsec Lab 1"
+              }
             }
           }
         ]
@@ -253,11 +232,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Netsec Lab 1.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Netsec Lab 1"
+              "state": {}
             }
           },
           {
@@ -268,9 +243,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              }
             }
           }
         ],
@@ -291,10 +264,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "58a50ffdd8b97a42",
+  "active": "b4476bc42d7b52fa",
   "lastOpenFiles": [
-    "Netsec Lab 1.md",
     "Haptics HW1.md",
+    "Netsec Lab 1.md",
     "Netsec_Homework 1.md",
     "MOCs/Network Security MOC.md",
     "Calculus 2 MOC.md",
