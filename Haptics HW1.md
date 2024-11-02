@@ -1,8 +1,40 @@
-_by Vaughn Valle_
+---
+tags:
+  - haptics
+date: October 4, 2024
+---
+_by Vaughn Valle_ 
 
 ### Question 1
+A Two-Channel Transparent Telerobotic System was constructed from the given example
+![[Pasted image 20241012120540.png]]
+Mass damping models $Z_h$ and $Z_e$ parameters were modified accordingly
+![[Pasted image 20241012120635.png]]
+![[Pasted image 20241012120744.png]]
 
+Finally, the human feedback response $f_h$ was setup using the addition of 2 sine wave functions and 1 cosine wave functions
+$$
+f_h^* = 20sin(1t) + 20cos(2t) + 20sin(10t)
+$$
+![[Pasted image 20241012121840.png]]
+Once setup, we plot the velocity of leader ($V_h$) vs follower robot ($V_e$). 
+![[Pasted image 20241012125903.png]]
+We do the same thing but for the force experience by the leader robot ($F_h$) vs follower robot ($F_e$).
+![[Pasted image 20241012125848.png]]
+
+These graphs show that the system is actually promising. 
+### Velocity Tracking
+- The plots show a good correlation/relationship between the leader and follower velocities. The overall shape and trends of both curves follow each other, indicative of good transparency within the system for velocity.
+- In terms of performance, the peaks and dips are not translated well on the environment side. Amplitude variations and slight phase differences are present so performance could definitely be improved for velocity tracking. Factors such as communication delay, noise, or the limitations of the control system itself could be the reason behind these negative effects.
+### Force Tracking
+- The force plots are spot on and very accurate. There is minimal latency/deviation between the leader and environment side of the system. 
+- In terms of performance, the force graph shows minimal discrepancies between both sides. This indicated that force is being translated well from the leader robot to the follower.
+
+Based on the provided plots, the system demonstrates good transparency and performance in force tracking. However, velocity tracking could be improved by addressing the aforementioned potential factors that cause the difference in amplitude and phase between leader versus follower.
+
+In terms of stability, I think it's important to define what we mean by "stable" in this context. In control systems, stability refers to the system's ability to return to its equilibrium state after being perturbed. A stable system will eventually settle back to its original condition, while an unstable system will diverge from its equilibrium point. Based on the plots, my inference is that the system is stable. After a specific action is performed, the system will reach back to equilibrium since the only shortcoming we can see from the plots is that there is amplitude variation in velocity tracking, which is a non-issue unless the control system cannot adjust to the over/under correction from the inputs given.
 ### Question 2
+
 #### Part A: Damper
 
 A system is considered passive if the total energy stored in the system is non-negative for all time. For a damper, the force F(t) is related to the velocity V(t) by the equation:

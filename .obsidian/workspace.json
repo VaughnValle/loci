@@ -50,6 +50,20 @@
             }
           },
           {
+            "id": "64e5c4282ef82ed0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Netsec HW2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Netsec HW2"
+            }
+          },
+          {
             "id": "58a50ffdd8b97a42",
             "type": "leaf",
             "state": {
@@ -61,6 +75,20 @@
               },
               "icon": "lucide-file",
               "title": "Haptics HW1"
+            }
+          },
+          {
+            "id": "cfe3bad7571cc591",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Haptics HW2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Haptics HW2"
             }
           },
           {
@@ -106,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -292,24 +320,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "58a50ffdd8b97a42",
+  "active": "cfe3bad7571cc591",
   "lastOpenFiles": [
-    "Netsec Lab 1.md",
+    "Pasted image 20241102142143.png",
+    "Pasted image 20241102142044.png",
+    "Pasted image 20241031143553.png",
+    "Pasted image 20241031143541.png",
     "Haptics HW1.md",
+    "Haptics HW2.md",
+    "Pasted image 20241030140331.png",
+    "Pasted image 20241030140316.png",
+    "Pasted image 20241030140031.png",
+    "Netsec Lab 1.md",
+    "Pasted image 20241030134104.png",
+    "Pasted image 20241030133757.png",
+    "Pasted image 20241029201416.png",
+    "Netsec HW2.md",
+    "Calculus 2 MOC.md",
+    "Pasted image 20241012125903.png",
     "Netsec_Homework 1.md",
     "MOCs/Network Security MOC.md",
-    "Calculus 2 MOC.md",
     "Week3 Offsec Writeup.md",
-    "Pasted image 20241001201057.png",
-    "Pasted image 20241001200152.png",
-    "Pasted image 20241001195813.png",
-    "Pasted image 20241001195801.png",
-    "Pasted image 20241001195438.png",
-    "Pasted image 20241001195251.png",
-    "Pasted image 20241001195146.png",
-    "Pasted image 20241001195032.png",
-    "Pasted image 20241001194947.png",
-    "Pasted image 20241001194141.png",
     "MOCs/Computer Architecture MOC.md",
     "MOCs/Computer Networking MOC.md",
     "TCP Header Flags.md",
@@ -336,9 +367,6 @@
     "client-server.md",
     "autonomous system.md",
     "Tuples.md",
-    "Truth Sets.md",
-    "The Pigeonhole Principle.md",
-    "TLS.md",
-    "Subsets.md"
+    "Truth Sets.md"
   ]
 }
