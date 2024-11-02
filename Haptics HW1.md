@@ -33,6 +33,8 @@ These graphs show that the system is actually promising.
 Based on the provided plots, the system demonstrates good transparency and performance in force tracking. However, velocity tracking could be improved by addressing the aforementioned potential factors that cause the difference in amplitude and phase between leader versus follower.
 
 In terms of stability, I think it's important to define what we mean by "stable" in this context. In control systems, stability refers to the system's ability to return to its equilibrium state after being perturbed. A stable system will eventually settle back to its original condition, while an unstable system will diverge from its equilibrium point. Based on the plots, my inference is that the system is stable. After a specific action is performed, the system will reach back to equilibrium since the only shortcoming we can see from the plots is that there is amplitude variation in velocity tracking, which is a non-issue unless the control system cannot adjust to the over/under correction from the inputs given.
+
+
 ### Question 2
 
 #### Part A: Damper
@@ -55,7 +57,7 @@ To prove integral passivity, we need to show that the integral of the power inpu
 
 $$∫_{t_0​}^t​ P(τ)dτ=∫^t_{t_0}​BV(τ)^2dτ≥0$$
 
-This inequality holds true since $BV(τ)2$ is always non-negative. Therefore, the damper is integral passive.
+This inequality holds true since $BV(τ)^2$ is always non-negative. Therefore, the damper is integral passive.
 
 #### Part B: Spring
 
