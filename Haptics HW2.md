@@ -54,8 +54,12 @@ We notice the significant Force feedback dip while Velocity on both follower and
 
 The goal of Wave-Variable control is to synchronize the motion of the follower and leader robot. By transmitting the desired trajectory of the master manipulator to the slave manipulator using a wave-like signal, the wave propagates through the communication channel, ensuring smooth and synchronized motion between the two systems.
 
-Force Scope
+Below is the plot of the force scope of the telerobotic system with wave-variable control applied
 ![[Pasted image 20241102142143.png]]
 
-Velocity Scope
+Below is the plot of the velocity scope of the telerobotic system with wave-variable control applied
 ![[Pasted image 20241102142044.png]]
+
+Based on the force and velocity plots, we can see that the system is dampened as both plots show a steady wave amplitude through each phase cycle as time goes by. Additionally, both force and velocity plots show that the system synchronizes both the follower and leader robot with incredible precision and accuracy, with little to no deviation between the plots from both sides. This implies that the system is stable.
+
+
