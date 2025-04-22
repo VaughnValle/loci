@@ -1,0 +1,41 @@
+1. 
+A|State|B
+0|0|10
+1|1|11
+0|1|11
+9|9|3
+8|9|3
+15|15|5
+0|15|5
+2. 
+a. mov data stored in Rg3 to Rg1, PC+1, zero flag not set
+b. increment value of data stored in Rg2 by 5, PC+1, zero flag not set if sum is zero, set otherwise
+c. compare if the data stoed in Rg1 and Rg3 are equal, PC+1, zero flag not set
+d. increment program counter by 3, jump to instruction 3 registers down if zero flag is set, PC+3, zero not set
+3. 
+a. move data 2 to register Rg0
+b. move data 4 to register Rg1 
+c. add the data in Rg0 and Rg1 and store it in Rg1, Rg1 = 6
+d. subtract the data in Rg1 by 1 and store it in Rg1, Rg1 = 5
+Rg0 = 2
+Rg1 = 5
+4.
+a. 1010 00 10 1100
+b. 1101 00 01 0110
+c. 1111 00 11 1101
+d. 0011 00 00 0010
+5.
+1010 00 01 0000, {add, Rg0, Rg1, 0000}
+0000 00 00 0110, {jmp, RXX, RXX, 0110}
+1100 10 11 0000, {sub, Rg2, Rg3, 0000}
+1001 00 10 1011, {movi, RXX, Rg2, 1011}
+6.
+a. 4, 8
+b. 5, 0
+
+7.
+movi, RXX, Rg3, 1111
+subi, RXX, Rg3, 0001
+jnz, RXX, RXX, 1101
+jmp, RXX, RXX, 0000
+

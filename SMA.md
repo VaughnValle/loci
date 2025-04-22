@@ -1,0 +1,1 @@
+Shape-memory alloy is an [alloy](https://en.wikipedia.org/wiki/Alloy "Alloy") that can be [deformed when cold](https://en.wikipedia.org/wiki/Cold_forming "Cold forming") but returns to its pre-deformed ("remembered") shape when heated

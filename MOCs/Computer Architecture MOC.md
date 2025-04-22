@@ -3,7 +3,6 @@ tags:
   - comp-arch
 type: moc
 ---
-#![[Pasted image 20240903180807.png]] Topics
 - [[Number systems]]
 - [[Bitwise]]
 - [[Verilog]]

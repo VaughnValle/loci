@@ -1,0 +1,4 @@
+- one that is either
+	- legal for the operator, or
+	- valid in the language
+- 

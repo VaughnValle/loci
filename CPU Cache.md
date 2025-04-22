@@ -35,6 +35,7 @@ There are 5 main components of a cache.
 	- if not
 		- if nothing there, Miss: populate
 		- if something there, Miss: evict and populate
+- Block size is $2^{offset}$
 ## Types
 L1, L2, and L3? Why do [[CPU]]s need more than one cache?
 1. Level 1 Cache (L1)

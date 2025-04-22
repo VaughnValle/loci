@@ -1,0 +1,273 @@
+{
+  "main": {
+    "id": "55d77c4a20b1e097",
+    "type": "split",
+    "children": [
+      {
+        "id": "f025cc37148f3663",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61d809e2bef9f802",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOCs/Offensive Security MOC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Offensive Security MOC"
+            }
+          },
+          {
+            "id": "3646405c71179cd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOCs/Computer Architecture MOC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Computer Architecture MOC"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "14e27a3cb41b664d",
+    "type": "split",
+    "children": [
+      {
+        "id": "879ef1ef153c4c15",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b7a09906232baf63",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "753604d1d29e190c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "dns",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b3fc77cd95a41648",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "3ec2257c6d25e023",
+    "type": "split",
+    "children": [
+      {
+        "id": "1eddc29c3d1a0ff0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87002cd5df40a81f",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Week9 Offsec Writeup.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.36288736930121596,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Week9 Offsec Writeup"
+            }
+          },
+          {
+            "id": "967477ee5990c1e7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Netsec Lab 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Netsec Lab 1"
+            }
+          },
+          {
+            "id": "d6b458c10114b50a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Netsec Lab 1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Netsec Lab 1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2c215db6ba866a21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91f21cb7aecf07f5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Netsec Lab 1.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Netsec Lab 1"
+            }
+          },
+          {
+            "id": "acef4c7f40fc269a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 409.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3646405c71179cd5",
+  "lastOpenFiles": [
+    "Associative Cache.md",
+    "Programming Languages.md",
+    "MOCs/Offensive Security MOC.md",
+    "Week 5 Offsec Writeup.md",
+    "Week6 Offsec Writeup.md",
+    "Week8 Offsec Writeup.md",
+    "Week9 Offsec Writeup.md",
+    "Week11-Offsec.md",
+    "Week12-Offsec.md",
+    "BOF.md",
+    "Haptics.md",
+    "Netsec_Homework 4.md",
+    "Week13-Offsec.md",
+    "Netsec Lab 5.md",
+    "CNSC CTF WebLeak Writeup.md",
+    "Pwncollege Writeup.md",
+    "Basic Comparch metrics.md",
+    "Pasted image 20241221011100.png",
+    "Pasted image 20241220235306.png",
+    "Pasted image 20241220235148.png",
+    "Pasted image 20241220234621.png",
+    "Pasted image 20241220234439.png",
+    "Pasted image 20241219231617.png",
+    "Pasted image 20241219221819.png",
+    "Pasted image 20241219220617.png",
+    "Pasted image 20241219214955.png",
+    "Pasted image 20241219212703.png",
+    "Netsec Lab 4.md",
+    "Week10 Offsec Writeup.md",
+    "Netsec Lab 3.sync-conflict-20241127-180205-LNI6ZVF.md",
+    "SMA.md",
+    "netsec_lab2.md",
+    "Netsec Lab 3.md",
+    "Netsec Lab 1.md",
+    "Netsec Lab 2.md",
+    "vqv9731-Netsec Lab 3.pdf",
+    "SIEM.md",
+    "comp_net/hw3/smtp.py",
+    "comp_net/hw3",
+    "comp_arch/proj2/tests-cache/write-through.s",
+    "comp_arch/proj2/tests-cache/write-through.bin",
+    "comp_arch/proj2/tests-cache/test.s",
+    "comp_arch/proj2/tests-cache/test.bin",
+    "comp_arch/proj2/tests-cache/stride4.s",
+    "comp_arch/proj2/tests-cache/stride4.bin",
+    "comp_arch/proj2/tests-cache/assoc2a.s"
+  ]
+}

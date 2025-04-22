@@ -1,0 +1,2 @@
+- Prog langs are made for a specific intent
+- 

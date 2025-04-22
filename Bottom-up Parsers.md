@@ -1,0 +1,6 @@
+- Use history to know what to expect next!
+- Use previous inputs to determine what's next
+- If we received a:
+	- term
+	- +/-
+	- (then the next thing we should expect is a term | otherwise error)
