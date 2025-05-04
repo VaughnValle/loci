@@ -1,0 +1,12 @@
+1. (A&B)~C | ~(A&B)
+2. [image]
+3. 0b00100011
+4. 9
+5. a: 23, b: 40
+6. a: 1111 0000 0000 1111, b: 1010 1011 1100 1101
+7. a: 0010 0010, b: 1101 1110
+8. a: 211, b: 8, c: 255
+9. a: -45, b: 8, c: -1
+10. No because once INT_MAX has been reached (2^32), it loops back to -(2^32), where while loop terminates
+11. [image]
+12. [image]

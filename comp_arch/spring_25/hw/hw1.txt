@@ -1,0 +1,39 @@
+1.
+F F F T
+F F T T
+F T F F
+F T T T
+T F F F
+T F T F
+T T F F
+T T T T
+
+2.
+Y = (~A & ~B) | (B & C)
+3. [image]
+4. Wrong. x is of unsigned int type, so it can only take positive integer values. Thus, in the iteration where x = 0, x then wraps around to INT_MAX, where x = 4294967295 for an 8-bit integer
+Output:
+x=79
+x=78
+...
+x=0
+x=4294967295
+5.
+a. 0b00110100
+b. 0b11001011
+c. 0b10110011
+d. 0b11110100
+6.
+a. 127
+b. -65
+c. -33
+d. 85
+7.
+a. 66, no overflow
+b. -127 overflow, we got a negative number from adding 2 positives
+c. -10, no overflow
+d. 56, overflow occured we got a positive number from adding 2 negatives
+8.
+a. 89
+b. 129
+c. 44 (overflow, we dropped the carry out after adding MSB)

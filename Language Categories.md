@@ -1,0 +1,8 @@
+- Imperative
+	- C, Java, C++
+- Functional
+	- Scheme
+- Logic
+	- Prolog
+- Markup
+	- JSTL

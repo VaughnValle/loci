@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: 2oeze-bousg
+created: 2024-11-24T16:46:27-05:00

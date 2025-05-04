@@ -1,6 +1,6 @@
-_made in Obsidian.mc_
+_made in Obsidian.md_
 
-
+If you have a Markdown reader, I strongly suggest you use it to view this for vastly increased readibility. Enjoy! :)
 ### Slide 9
 First, since I was on my own personal Arch build, I had to download the default `nmap.lst` from a repo
 ```bash

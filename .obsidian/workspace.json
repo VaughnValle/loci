@@ -146,9 +146,49 @@
               "icon": "lucide-file",
               "title": "Calculus 2 MOC"
             }
+          },
+          {
+            "id": "d0968043954d6943",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VALLE_Assignment4.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "VALLE_Assignment4"
+            }
+          },
+          {
+            "id": "e633a48e4f1f7a10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VALLE_Lab8.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "VALLE_Lab8"
+            }
+          },
+          {
+            "id": "e8317f9cb756b3e3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -334,53 +374,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f234592ea830fc1f",
+  "active": "e633a48e4f1f7a10",
   "lastOpenFiles": [
-    "Haptics HW2.md",
-    "Haptics HW3.md",
-    "Pasted image 20241102142143.png",
-    "Pasted image 20241102142044.png",
-    "Pasted image 20241031143553.png",
-    "Pasted image 20241031143541.png",
-    "Haptics HW1.md",
-    "Pasted image 20241030140331.png",
-    "Pasted image 20241030140316.png",
-    "Pasted image 20241030140031.png",
-    "Netsec Lab 1.md",
-    "Pasted image 20241030134104.png",
-    "Pasted image 20241030133757.png",
-    "Pasted image 20241029201416.png",
-    "Netsec HW2.md",
-    "Calculus 2 MOC.md",
-    "Netsec_Homework 1.md",
-    "MOCs/Network Security MOC.md",
-    "Week3 Offsec Writeup.md",
-    "MOCs/Computer Architecture MOC.md",
-    "MOCs/Computer Networking MOC.md",
-    "TCP Header Flags.md",
-    "ARP.md",
-    "RFC793.md",
-    "Week2 Offsec Writeup.md",
-    "Week1 Offsec Writeup.md",
-    "Week0 Offsec Writeup.md",
-    "Untitled.md",
-    "Virtual Memory.md",
-    "Control Plane.md",
-    "OSIRIS Blog.md",
-    "upstream.md",
-    "comp_net/hw3/smtp.py",
-    "comp_net/hw3",
-    "comp_arch/proj2/tests-cache/write-through.s",
-    "comp_arch/proj2/tests-cache/write-through.bin",
-    "comp_arch/proj2/tests-cache/test.s",
-    "comp_arch/proj2/tests-cache/test.bin",
-    "comp_arch/proj2/tests-cache/stride4.s",
-    "comp_arch/proj2/tests-cache/stride4.bin",
-    "comp_arch/proj2/tests-cache/assoc2a.s",
-    "comp_arch/proj2/tests-cache/assoc2a.bin",
-    "client-server.md",
-    "autonomous system.md",
-    "Tuples.md",
-    "Truth Sets.md"
+    "VALLE_Lab8.md~",
+    "vqv9731-Netsec Lab 3.pdf",
+    "ordinal type.md",
+    "netsec_lab2.md",
+    "compatible types.md",
+    "comp_arch/spring_25/rec/rec3/recitation3.txt",
+    "comp_arch/spring_25/rec/rec2/recitation2.txt",
+    "comp_arch/spring_25/rec/rec1/recitation1q2.png",
+    "comp_arch/spring_25/rec/rec1/recitation1q12.png",
+    "comp_arch/spring_25/rec/rec1/recitation1q11.png",
+    "comp_arch/spring_25/rec/rec1/recitation1.txt",
+    "comp_arch/spring_25/rec/rec3",
+    "comp_arch/spring_25/rec/rec2",
+    "comp_arch/spring_25/rec/rec1",
+    "comp_arch/spring_25/hw/hw1q3.HEIC",
+    "comp_arch/spring_25/hw/hw1.txt",
+    "comp_arch/spring_25/rec",
+    "Y2K Problem.md",
+    "Week9 Offsec Writeup.md",
+    "Week8 Offsec Writeup.md",
+    "Week6 Offsec Writeup.md",
+    "Week13-Offsec.md",
+    "Week12-Offsec.md",
+    "Week11-Offsec.md",
+    "Week10 Offsec Writeup.md",
+    "Week 5 Offsec Writeup.md",
+    "Webdev Work.md",
+    "WIPS.md",
+    "Von Neumann architecture.md",
+    "Valle_PS5.md",
+    "Valle_PS4.md",
+    "Valle_Lab5.md",
+    "Valle_Assignment3.md",
+    "VALLE_Lab7.md",
+    "VALLE_Lab6.md",
+    "VALLE_Lab3.md",
+    "VALLE_HW8.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Pasted image 20250421233504.png",
+    "Pasted image 20250421233415.png",
+    "Pasted image 20250421232623.png",
+    "Pasted image 20250421232541.png",
+    "Pasted image 20250421231542.png",
+    "Pasted image 20250415144247.png",
+    "Pasted image 20250410144433.png"
   ]
 }

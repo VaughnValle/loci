@@ -1,0 +1,16 @@
+- Readability
+	- how easy is it for other people to read and understand your language?
+	- Syntax
+- Writability
+	- how easy is it to use for creating programs?
+- Reliability
+	- how does it perform accdg. to specifications?
+	- aliases detriment to reliability
+- Cost
+	- total cost?
+		- how expensive is it to:
+			- learn it
+			- write programs with it
+			- maintain it
+	- [[Bus factor]]
+	- 
