@@ -15,6 +15,7 @@ type: moc
 - [[Virtual Memory]]
 - [[x86]] architecture
 - [[System calls]]
+- [[CompArch_Final_Questions]]
 
 ## Resources
 - ![[Pasted image 20240430134951.png]]
@@ -23,3 +24,5 @@ type: moc
 - ![[Pasted image 20240430135151.png]] 
 - ![[Pasted image 20240430135133.png]]
 - ![[Pasted image 20240430134837.png]]
+
+![[Pasted image 20250504212100.png]]
